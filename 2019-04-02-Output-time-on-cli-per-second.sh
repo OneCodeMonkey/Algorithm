@@ -1,0 +1,1 @@
+echo '<?php date_default_timezone_set("Asia/Shanghai"); while (1) { echo date("Y-m-d H:i:s", time()) . "\n"; sleep(1);}  ?>'|php
