@@ -60,5 +60,17 @@ $PARSER->add_tag(
 $PARSERT->add_tag(
     OPTION => sub {
     	my ($attrs) = @_;
+        my $seleted;
+        my $value
+            = defined $r->param($select)
+            ? $r->param($select)
+            : $EMPTY_STRING;
+        if ($select eq $value) {
+            $selected = 'SELECTED';
+        }
+        else {
+            $selected = $EMPTY_STRING;
+        }
+        return qq{<OPTION VALUE="$value"> $selected>};
     }
-)
+);
