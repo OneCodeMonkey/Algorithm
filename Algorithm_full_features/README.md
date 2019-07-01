@@ -2,15 +2,15 @@ This folder contain most of the famous algorithm, and they are implemented in Ja
 
 #### 算法目录：
 
-| 算法名   | 对应文件          |
-| -------- | ----------------- |
-| 二分查找 | BinarySearch.java |
-|          |                   |
-|          |                   |
-|          |                   |
-|          |                   |
-|          |                   |
-|          |                   |
-|          |                   |
-|          |                   |
+| 算法名          | 对应文件          |
+| --------------- | ----------------- |
+| 二分查找        | BinarySearch.java |
+| 洗牌算法(Knuth) | Shuffle.java      |
+|                 |                   |
+|                 |                   |
+|                 |                   |
+|                 |                   |
+|                 |                   |
+|                 |                   |
+|                 |                   |
 
