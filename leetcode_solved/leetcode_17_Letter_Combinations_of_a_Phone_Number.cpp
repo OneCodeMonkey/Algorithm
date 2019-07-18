@@ -1,47 +1,45 @@
 class Solution {
 public:
-    vector<string> letterCombinations(string digits) {
-        int len = digits.length();
-        int sum = 1, a, b;
+	/* 本题实质上是求一类变种的全排列情况的问题，下面的递归做法很有意思！ */
 
-        // record how many alpha choices each number have.
-        int choiceCount[8] = {3, 3, 3, 3, 3, 4, 3, 4};
+    vector<string> letterCombinations(string digits) { 
+        vector<string> result;
+        int n = digits.length();
+        if(!n)
+        	return vector<string>();
 
-        int alpha[8][4] = {
-        	{'a', 'b', 'c'},
-        	{'d', 'e', 'f'},
-        	{'g', 'h', 'i'},
-        	{'j', 'k', 'l'},
-        	{'m', 'n', 'o'},
-        	{'p', 'q', 'r', 's'},
-        	{'t', 'u', 'v'},
-        	{'w', 'x', 'y', 'z'},
+        static const vector<string> v = {
+        	"",
+        	"",
+        	"abc",
+        	"def",
+        	"ghi",
+        	"jkl",
+        	"mno",
+        	"pqrs",
+        	"tuv",
+        	"wxyz"
         };
 
-        vector<string> ret;
-        vector<int>digit;	// 记录每一位，的可选字母有几个，比如 2 有 a,b,c 三个可选字母，那么对应是3
-        for(int i = 0; i < len; i++) {
-        	digit.push_back(choiceCount[digits[i] + 1]);
-        	sum *= choiceCount[digits[i] + 1];
+        result.push_back("");	// add a seed for the initial case
+
+        for(int i = 0; i < n; i++) {
+        	int num = digits[i] - '0';
+        	if(num < 2 || num > 9)
+        		break;
+        	const string& temp = v[num];
+        	if(temp.empty())
+        		continue;
+
+        	vector<string> temp2;
+
+        	for(int j = 0; j < temp.size(); j++)
+        		for(int k = 0; k < result.size(); k++)
+        			temp2.push_back(result[k] + temp[j]);		// 累积上一轮的变化情况
+
+        	result.swap(temp2);
         }
 
-        for(int i = 1; i <= sum; i++) {
-        	string tmpStr = "";
-        	// 生成字符串。
-        	int pos = 0;
-        	a = i % digit[pos];
-        	b = i / digit[pos];
-        	tmpStr += alpha[digits[pos] - 1][a];
-        	while(b > 1) {
-        		pos++;
-        		a = b % digit[pos];
-        		b = b / digit[pos];
-        		tmpStr += alpha[digits[pos] - 1][a];
-        	}
-
-        	ret.push_back(tmpStr);
-        }
-
-        return ret;
+        return result;
     }
 };
