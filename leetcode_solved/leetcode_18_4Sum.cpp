@@ -30,11 +30,9 @@ public:
      					tempArr.push_back(nums[l]);
      					tempArr.push_back(nums[r]);
 
-     					// 去重, 这里尝试直接 it == tempArr，结果不是想要的效果，即使值一样由于指针不一样也会判定为不一样。所以挨个比较值
-     					// 这里也体现出 C++ 的语言不方便性，换其他语言比如 php，直接 一个 exist() 就能完成的事。
-                        int flag = 0;
+     					int flag = 0;
      					for(auto it:ret) {
-     						if(it[0] == tempArr[0] && it[1] == tempArr[1] && it[2] == tempArr[2] && it[3] == tempArr[3]) {
+     						if(it == tempArr) {
      							flag = 1;
                                 break;
      						}
