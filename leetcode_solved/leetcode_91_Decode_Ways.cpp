@@ -7,28 +7,27 @@ public:
 		if (size < 1 || (size >= 1 && (s[0] - '0') < 1)) 	// 极端情况
 			return 0;
 
-		vector<string> map;		// 这里没有用 vector<char>，因为 C++ 类型转换很麻烦，我们后面要用 '+' 做字符串拼接，避免麻烦。
-		for (int i = 0; i < 26; i++) {
-			char tempChar = 'A' + i;
-			char temp[1] = { tempChar };
-			string tempStr = temp;
-			map.push_back(tempStr);
-		}
+		// 不需要输出详细结果
+		//vector<string> map;		// 这里没有用 vector<char>，因为 C++ 类型转换很麻烦，我们后面要用 '+' 做字符串拼接，避免麻烦。
+		//for (int i = 0; i < 26; i++) {
+		//	char tempChar = 'A' + i;
+		//	char temp[1] = { tempChar };
+		//	string tempStr = temp;
+		//	map.push_back(tempStr);
+		//}
 
-		vector<vector<int> > ret;		// 记录生成结果。
-		vector<int> initialSet;
-		initialSet.push_back(s[0] - '0');
-		ret.push_back(initialSet);
+		vector<int> ret;		// 记录生成结果的每个分支的最后一个数
+		ret.push_back(s[0] - '0');
 		retCount++;
 
 		for (int i = 1; i < size; i++) {		// 逐位判断。
 			int tempNum = s[i] - '0';	// 转int
 			int retNowSize = ret.size();
 			for (int j = 0; j < retNowSize; j++) {
-				int last = ret[j][ret[j].size() - 1];	// 倒数第一个元素
-				if (last >= 10) {		// 最后一个为二位数，
+				int last = ret[j];		// 每个子 vector，只存该分支对应的数组的【最后一个元素】（不然内存不够用。。。）
+				if (last > 10) {		// 最后一个为二位数，
 					if (tempNum != 0) {
-						ret[j].push_back(tempNum);
+						ret[j] = tempNum;
 					}
 					else {
 						ret.erase(ret.begin() + j);		//删除此 分支
@@ -46,23 +45,23 @@ public:
 							retCount--;			// 减1
 						}
 						else {
-							ret[j][ret[j].size() - 1] = last * 10 + tempNum;
+							ret[j] = last * 10 + tempNum;
 						}
 
 						//ret[j].push_back(tempNum);
 					}
 					else if ((last * 10 + tempNum) <= 26 && last > 0) {	// 可单个加入，也可和最后一个合并
 					 // 和最后一个拼接成一个小于 26 的二位数，作为新的 vector 加入 ret
-						vector<int> newTempSet(ret[j]);
-						newTempSet[ret[j].size() - 1] = last * 10 + tempNum;
+						int newTempSet(ret[j]);
+						newTempSet = last * 10 + tempNum;
 						ret.push_back(newTempSet);
 
-						ret[j].push_back(tempNum);	// 加单个
+						ret[j] = tempNum;	// 加单个
 
 						retCount++;
 					}
 					else {		// 只能单个加入
-						ret[j].push_back(tempNum);
+						ret[j] = tempNum;	// 加单个
 					}
 				}
 			}
@@ -71,13 +70,14 @@ public:
 		return retCount;
 	}
 
-private:
-	string convert(vector<int> nums, vector<string> map) {
-		string s = "";
-		for( auto it:nums) {
-			s += map[it];
-		}
-
-		return s;
-	}
+// private:
+	// 不需要输出详细结果
+	// string convert(vector<int> nums, vector<string> map) {
+	//	string s = "";
+	//	for (auto it : nums) {
+	//		s += map[it];
+	//	}
+	//
+	//	return s;
+	//}
 };
