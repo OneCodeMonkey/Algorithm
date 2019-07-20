@@ -1,5 +1,11 @@
 class Solution {
 public:
+	/**
+	 * AC:
+	 * Runtime: 0 ms, faster than 100.00% of C++ online submissions for Decode Ways.
+	 * Memory Usage: 8.4 MB, less than 66.35% of C++ online submissions for Decode Ways.
+	 *
+	 */
     int numDecodings(string s) {
 		int n = s.length();
 		int a = 1, b = 1;
