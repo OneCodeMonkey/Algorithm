@@ -6,8 +6,6 @@ public:
 
 		if (size < 1 || (size >= 1 && (s[0] - '0') < 1)) 	// 极端情况
 			return 0;
-		if (s == "100")
-			return 0;
 
 		vector<string> map;		// 这里没有用 vector<char>，因为 C++ 类型转换很麻烦，我们后面要用 '+' 做字符串拼接，避免麻烦。
 		for (int i = 0; i < 26; i++) {
@@ -28,7 +26,7 @@ public:
 			int retNowSize = ret.size();
 			for (int j = 0; j < retNowSize; j++) {
 				int last = ret[j][ret[j].size() - 1];	// 倒数第一个元素
-				if (last > 10) {		// 最后一个为二位数，
+				if (last >= 10) {		// 最后一个为二位数，
 					if (tempNum != 0) {
 						ret[j].push_back(tempNum);
 					}
