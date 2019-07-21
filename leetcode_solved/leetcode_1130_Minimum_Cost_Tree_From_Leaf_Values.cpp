@@ -1,5 +1,10 @@
 class Solution {
 public:
+	/**
+	 * Runtime: 4 ms, faster than 100.00% of C++ online submissions for Minimum Cost Tree From Leaf Values.
+	 * Memory Usage: 9.2 MB, less than 100.00% of C++ online submissions for Minimum Cost Tree From Leaf Values.
+	 *
+	 */
     int mctFromLeafValues(vector<int>& arr) {
     	int n = arr.size();
     	vector<vector<pair<int,int> > > dp(n, vector<pair<int,int> > (n));
