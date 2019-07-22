@@ -13,12 +13,12 @@ public:
         int n = arr1.size();
         int ans = 0;
         for(int i = 0; i < 2; i++) {
-        	int x = x[i];
+        	int a = x[i];
         	for(int j = 0; j < 2; j++) {
-        		int y = y[j];
-        		int temp = arr1[0] * x + arr2[0].y;
+        		int b = y[j];
+        		int temp = arr1[0] * a + arr2[0] * b;
         		for(int k = 1; k < n; k++) {
-        			int temp2 = arr1[k] * x + arr2[k] * y + k;
+        			int temp2 = arr1[k] * a + arr2[k] * b + k;
         			ans = max(ans, temp2 - temp);
         			temp = min(temp, temp2);	// 更新为一个较小值，继续与后面比较，以获取更大的差
         		}
