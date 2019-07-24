@@ -26,9 +26,7 @@ public:
         				tempSum += hours[k];
         			isAccumulated = 1;	// 已累加过和，j++ 时不需要再累加
         		}
-        		if(tempSum + hours[j] < 1 \		// 当前已经不满足
-        			|| tempSum + hours[j] + n - 1 - j < 1 \		// 负的太多，即使后面都是 1 也满足不了
-        			) {
+        		if(tempSum + hours[j] < 1 /* 当前已经不满足 */ || tempSum + hours[j] + n - 1 - j < 1	/* 负的太多，即使后面都是 1 也满足不了 */ ) {
         			if(j - i + 1 > maxLength)	// 更新最大长度
         				maxLength = j - i + 1;
         			break;	// i++
