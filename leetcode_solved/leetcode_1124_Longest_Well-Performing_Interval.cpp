@@ -18,15 +18,15 @@ public:
 
         int maxLength = 0;
         for(int i = 0; i < n - 1; i++) {
-        	int tempSum = hours[i];		// 临时累积和。方便中途做判断，提前退出
+        	int tempSum = raw[i];		// 临时累积和。方便中途做判断，提前退出
         	int isAccumulated = 0;		// 头一次需要从 [i, i + maxLength - 1] 算出 tempSum, 后面就不需要了
         	for(int j = i + maxLength; j < n; j++) {	// 从 (i + maxLength) 开始,因为长度至少要大于等于现在的最大长度，否则不是我们要的结果
         		if(!isAccumulated) {
         			for(int k = i + 1; k <= (j - 1); k++)	// 累加到 j 的前面一个。起始时 j 单独判断
-        				tempSum += hours[k];
+        				tempSum += raw[k];
         			isAccumulated = 1;	// 已累加过和，j++ 时不需要再累加
         		}
-        		if(tempSum + hours[j] < 1 /* 当前已经不满足 */ || tempSum + hours[j] + n - 1 - j < 1	/* 负的太多，即使后面都是 1 也满足不了 */ ) {
+        		if(tempSum + raw[j] < 1 /* 当前已经不满足 */ || tempSum + raw[j] + n - 1 - j < 1	/* 负的太多，即使后面都是 1 也满足不了 */ ) {
         			if(j - i + 1 > maxLength)	// 更新最大长度
         				maxLength = j - i + 1;
         			break;	// i++
