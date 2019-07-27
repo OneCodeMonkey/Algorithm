@@ -7,6 +7,13 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
+
+/**
+ * AC:
+ * Runtime: 12 ms, faster than 93.31% of C++ online submissions for Lowest Common Ancestor of Deepest Leaves.
+ * Memory Usage: 19.6 MB, less than 100.00% of C++ online submissions for Lowest Common Ancestor of Deepest Leaves.
+ * 
+ */
 class Solution {
 	int retd;
 	TreeNode* ret;
