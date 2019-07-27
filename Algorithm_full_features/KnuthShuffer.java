@@ -11,7 +11,7 @@ public class KnuthShuffle {
 	private KnuthShuffle {}
 
 	public static void shuffle(Object[] a) {
-		int n = a.length();
+		int n = a.length;
 		// n 轮洗牌
 		for(int i = 0; i < n; i++) {
 			int r = (int)(Math.random() * (i + 1));
@@ -28,7 +28,7 @@ public class KnuthShuffle {
 	 *
 	 */
 	public static shuffleAlternative(Object[] a) {
-		int n = a.length();
+		int n = a.length;
 		for(int i = 0; i < n; i++) {
 			int r = i + (int)(Math.random() * (n - i));
 			Object swap = a[r];
