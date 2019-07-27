@@ -40,7 +40,7 @@ public class Insertion {
 
 	// Rearrange the array in ascending order with a comparator
 	public static void sort(Object[] a, Comparable comparator) {
-		int n = a.length();
+		int n = a.length;
 		for(int i = 1; i < n; i++) {
 			for(int j = i + 1; j > 0 && less(a[j], a[j - 1], comparator); j--) {
 				exchange(a, j, j - 1);
@@ -63,7 +63,7 @@ public class Insertion {
 	// do not change the original array a[]
 	// Returns a permutation that gives the elements in the array in ascending order.
 	public static int[] indexSort(Comparable[] a) {
-		int n = a.length();
+		int n = a.length;
 		int[] index = new int[n];
 		for(int i = 0; i < n; i++) {
 			index[i] = i;
