@@ -10,6 +10,29 @@ public:
 	 * 满足就在这半边，不满足，则 l = mid + 1, r 不变。即转向另外一遍，继续做这样的判断。
 	 */
     int search(vector<int>& nums, int target) {
-    	
+    	int l = 0;
+    	int r = nums.size() - 1;
+    	while(l < r) {
+    		int mid = l + (l - r) / 2;	// 中间点
+    		if(nums[mid] == target) {
+    			return mid;
+    		}
+
+    		if(nums[l] < nums[mid]) {	// [l，mid] 段是排好序的。
+    			if(target > nums[l] && target < nums[mid]) {	// target 可能在 [l, mid]
+    				r = mid - 1;
+    			} else {
+    				l = mid + 1;		// 转向右半边
+    			}
+    		} else {	// [mid, r] 段是排好序的
+    			if(target > nums[mid] && target < nums[r]) {	// target 可能在 [mid, r]
+    				l = mid + 1;
+    			} else {
+    				r = mid - 1;		// 转向左半边
+    			}
+    		}
+    	}
+
+    	return -1;		// 查找失败
     }
 };
