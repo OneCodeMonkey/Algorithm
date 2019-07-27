@@ -1,5 +1,14 @@
 class Solution {
 public:
+	/**
+	 * AC:
+	 * Runtime: 8 ms, faster than 69.71% of C++ online submissions for Search in Rotated Sorted Array II.
+	 * Memory Usage: 8.5 MB, less than 98.18% of C++ online submissions for Search in Rotated Sorted Array II.
+	 *
+	 * @see  ./leetcode_33_Search_in_Rotated_Sorted_Array.cpp
+	 * 思路：和 leetcode_33_Search_in_Rotated_Sorted_Array 一样。只需每次循环前，做两端的去重就行了。
+	 * 其余情形等同于 Search_in_Rotated_Sorted_Array
+	 */
     bool search(vector<int>& nums, int target) {
         int l = 0;
         int r = nums.size() - 1;
