@@ -2,6 +2,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.7.27 | `leetcode_33_Search_in_Rotated_Sorted_Array`，`leetcode_81_Search_in_Rotated_Sorted_Array_II` |
 | 2019.7.24 | `leetcode_1125_Smallest_Sufficient_Team`,`leetcode_1124_Longest_Well-Performing_Interval` |
 | 2019.7.22 | `leetcode_1131_Maximum_of_Absolute_Value_Expression`,`leetcode_1129_Shortest_Path_with_Alternating_Color` |
 | 2019.7.21 | `leetcode_1128_Number_of_Equivalent_Domino_Pairs`            |
