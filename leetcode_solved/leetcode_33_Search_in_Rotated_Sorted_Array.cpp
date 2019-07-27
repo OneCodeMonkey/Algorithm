@@ -1,6 +1,10 @@
 class Solution {
 public:
 	/**
+	 * AC：
+	 * Runtime: 0 ms, faster than 100.00% of C++ online submissions for Search in Rotated Sorted Array.
+	 * Memory Usage: 8.7 MB, less than 55.62% of C++ online submissions for Search in Rotated Sorted Array.
+	 *
 	 * 思路：这是一个经典的二分查找的变形。但我们不能先试着遍历去找出这个旋转的点，因为这样就是 O(n),我们要用更高效的方法去查找。
 	 * 如何二分查找呢？我们注意到一点，无论我们选择那个点做中间点，他都会有半边是已排序好的。
 	 * 例如：
