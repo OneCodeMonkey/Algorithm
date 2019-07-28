@@ -5,6 +5,17 @@ public:
 	 *
 	 */
     int tribonacci(int n) {
-        
+    	int u = 0;
+    	int v = 1;
+    	int w = 1;
+    	int ret;
+        for(int i = 3; i < n; i++) {
+        	ret = u + v + w;
+        	u = v;
+        	v = w;
+        	w = ret;
+        }
+
+        return ret;
     }
 };
