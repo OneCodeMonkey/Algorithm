@@ -5,6 +5,9 @@ public:
 	 *
 	 */
     int largest1BorderedSquare(vector<vector<int>>& grid) {
+        int row = grid.size();
+        int col = grid[0].size();
+
         
     }
 };
