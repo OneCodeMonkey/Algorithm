@@ -1,4 +1,4 @@
-(![leetcode badge](<https://leetcode-badge.chyroc.cn/?name=ly2015cn_tj&leetcode_badge_style=Leetcode%20|%20Ranking-{{.ranking}}-green.svg>))(![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cn_tj&leetcode_badge_style=Solved/Total-{{.solved_question}}/{{.all_question}}-green.svg>))
+![leetcode badge](<https://leetcode-badge.chyroc.cn/?name=ly2015cn_tj&leetcode_badge_style=Leetcode%20|%20Ranking-{{.ranking}}-green.svg>) %20 ![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cn_tj&leetcode_badge_style=Solved/Total-{{.solved_question}}/{{.all_question}}-green.svg>)
 
 basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
