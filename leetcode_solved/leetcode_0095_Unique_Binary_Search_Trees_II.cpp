@@ -9,6 +9,12 @@
  */
 class Solution {
 public:
+	/**
+	 * AC:
+	 * Runtime: 16 ms, faster than 87.49% of C++ online submissions for Unique Binary Search Trees II.
+	 * Memory Usage: 16.5 MB, less than 78.19% of C++ online submissions for Unique Binary Search Trees II.
+	 *
+	 */
 	vector<TreeNode*> generateTrees(int s, int t) {
 		vector<TreeNode*> ans;
 		if(s > t) {
