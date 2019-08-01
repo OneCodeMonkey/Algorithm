@@ -1,5 +1,11 @@
 class Solution {
 public:
+    /**
+     * AC:
+     * Runtime: 0 ms, faster than 100.00% of C++ online submissions for Pow(x, n).
+     * Memory Usage: 8.4 MB, less than 59.64% of C++ online submissions for Pow(x, n).
+     *
+     */
     double pow(double x, long long n) {
         if (n == 0)
             return 1;
