@@ -19,6 +19,11 @@ public:
         if (n == 1)
             return x;
         double ans;
+        if(n == INT_MIN) {
+            x = 1 / x;
+            ans = pow(x, - n - 1) * x;
+            return ans;
+        }
         if (n < 0) {
             n = -n;
             x = 1 / x;
