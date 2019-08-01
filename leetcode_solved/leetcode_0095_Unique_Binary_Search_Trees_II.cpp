@@ -38,7 +38,6 @@ public:
     vector<TreeNode*> generateTrees(int n) {
      	vector<TreeNode*> ans;
      	if(n == 0) {
-     		ans.push_back(NULL);
      		return ans;   
      	}
 
