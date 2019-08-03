@@ -71,5 +71,39 @@ public class QuickSortOptimized {
 	}
 
 
-	// private static boolean less
+	private static boolean less(Comparable v, Comparable w) {
+		return v.compareTo(w) < 0;
+	}
+
+	// swap a[i] and a[j]
+	private static void exchange(Object[] a, int i, int j) {
+		Object swap = a[i];
+		a[i] = a[j];
+		a[j] = swap;
+	}
+
+	private static boolean isSorted(Comparable[] a) {
+		for(int i = 1; i < a.length; i++) {
+			if(less(a[i], a[i - 1]))
+				return false;
+		}
+
+		return true;
+	}
+
+	// print
+	private static void show(Comparable[] a) {
+		for(int i = 0; i < a.length; i++)
+			StdOut.println(a[i]);
+	}
+
+	// test
+	public static void main(String[] args) {
+		String[] a = StdIn.readAllStrings();
+
+		QuickSortOptimized.sort(a);
+		
+		assert isSorted(a);
+		show(a);
+	}
 }
