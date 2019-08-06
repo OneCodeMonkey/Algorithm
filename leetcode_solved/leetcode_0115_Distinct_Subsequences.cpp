@@ -1,5 +1,11 @@
 class Solution {
 public:
+	/**
+	 * AC:
+	 * Runtime: 4 ms, faster than 95.83% of C++ online submissions for Distinct Subsequences.
+	 * Memory Usage: 8.5 MB, less than 100.00% of C++ online submissions for Distinct Subsequences.
+	 *
+	 */
     int numDistinct(string s, string t) {
      	const size_t S = s.size();
      	const size_t T = t.size();
