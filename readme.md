@@ -4,7 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
-| 2019.8.6  | `leetcode_1140_Stone_Game_II`                                |
+| 2019.8.6  | `leetcode_1140_Stone_Game_II`,`leetcode_0115_Distinct_Subsequences` |
 | 2019.8.1  | `leetcode_0095_Unique_Binary_Search_Trees_II`，`leetcode_0029_Divide_Two_Intergers`，`leetcode_0050_Pow_x_n` |
 | 2019.7.28 | `leetcode_1137_Nth_Tribonacci_Number`,`leetcode_1138_Alphabet_Board_Path`,`leetcode_1139_Largest_1_Bordered_Square` |
 | 2019.7.27 | `leetcode_33_Search_in_Rotated_Sorted_Array`，`leetcode_81_Search_in_Rotated_Sorted_Array_II`，`leetcode_1123_Lowest_Common_Ancestor_of_Deepest_Leaves` |
