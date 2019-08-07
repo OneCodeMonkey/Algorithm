@@ -4,8 +4,8 @@
  * with 3-way partitioning.
  *
  */
-public class QuickSortThreeWays {
-	private QuickSortThreeWays() {}
+public class QuickSortThreeWaysPartition {
+	private QuickSortThreeWaysPartition() {}
 
 	public static void sort(Comparable[] a) {
 		StdRandom.shuffle(a);
@@ -66,7 +66,7 @@ public class QuickSortThreeWays {
 	// test
 	public static void main(String[] args) {
 		String[] a = StdIn.readAllStrings();
-		QuickSortThreeWays.sort(a);
+		QuickSortThreeWaysPartition.sort(a);
 		show(a);
 	}
 }
