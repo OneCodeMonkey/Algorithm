@@ -25,4 +25,43 @@ public class RedBlackBST<Key extends Comparable<Key>, value> {
 			this.size = size;
 		}
 	}
+
+	// Initializes an empty symbol table.
+	public RedBlackBST() {
+		//
+	}
+
+	/***********************
+	 * Node helper methods *
+	 *					   *
+	 ***********************/
+
+	// is node x red
+	private boolean isRed(Node x) {
+		if(x == null)
+			return false;
+		return x.color == RED;
+	}
+
+	// number of node in subtree rooted at x; 0 if x is null
+	private int size(Node x) {
+		if(x == null)
+			return 0;
+		return x.size;
+	}
+
+	// Returns the number of key-value pairs in this symbol table.
+	public int size() {
+		return size(root);
+	}
+
+	public boolean isEmpty() {
+		return root == null;
+	}
+
+	/************************
+	 * Standard BST search. *
+	 * 						*
+	 ************************/
+	
 }
