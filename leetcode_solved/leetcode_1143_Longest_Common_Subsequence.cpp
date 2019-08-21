@@ -7,30 +7,12 @@ public:
 	 *
 	 * @see 
 	 */
-    int longestCommonSubsequence(string text1, string text2) {
-		int size1 = text1.length();
-		int size2 = text2.length();
-		vector<vector<int> > record(size1, vector<int>(size2, 0));
-		int maxLen = 0;
-
-		for (int i = 0; i < size1; i++) {
-			for (int j = 0; j < size2; j++) {
-				if (i == 0 || j == 0) {
-					if (text2[j] == text1[i])
-						record[i][j] = 1;
-				}
-				else {
-					if (text2[j] == text1[i])
-						record[i][j] = record[i - 1][j - 1] + 1;
-					else
-						record[i][j] = record[i - 1][j - 1];
-				}
-				if (record[i][j] > maxLen) {
-					maxLen = record[i][j];
-				}
-			}
-		}
-
-		return maxLen;
-	}
+    int longestCommonSubsequence(string &a, string &b) {
+      vector<vector<short>> m(a.size() + 1, vector<short>(b.size() + 1));
+      for (auto i = 1; i <= a.size(); ++i)
+        for (auto j = 1; j <= b.size(); ++j)
+          if (a[i - 1] == b[j - 1]) m[i][j] = m[i - 1][j - 1] + 1;
+          else m[i][j] = max(m[i - 1][j], m[i][j - 1]);
+      return m[a.size()][b.size()];
+    }
 };
