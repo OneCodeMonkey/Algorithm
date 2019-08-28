@@ -4,7 +4,8 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
-| 2019.8.22 | `leetcode_1092_Shortest_Common_Supersequence`|
+| 2019.8.28 | `leetcode_1157_Online_Majority_Element_In_Subarray`          |
+| 2019.8.22 | `leetcode_1092_Shortest_Common_Supersequence`                |
 | 2019.8.6  | `leetcode_1140_Stone_Game_II`,`leetcode_0115_Distinct_Subsequences` |
 | 2019.8.1  | `leetcode_0095_Unique_Binary_Search_Trees_II`，`leetcode_0029_Divide_Two_Intergers`，`leetcode_0050_Pow_x_n` |
 | 2019.7.28 | `leetcode_1137_Nth_Tribonacci_Number`,`leetcode_1138_Alphabet_Board_Path`,`leetcode_1139_Largest_1_Bordered_Square` |
