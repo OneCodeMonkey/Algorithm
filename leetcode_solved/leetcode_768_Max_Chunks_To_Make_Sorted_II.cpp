@@ -10,6 +10,6 @@ public:
             sum2 += arr[i];
             if(sum1 == sum2) ans++;
         }
-	return ans;
+		return ans;
     }
 };
