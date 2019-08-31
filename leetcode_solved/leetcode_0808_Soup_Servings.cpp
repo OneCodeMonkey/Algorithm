@@ -8,16 +8,16 @@
  */
 class Solution {
 public:
+    double memo[200][200];
     double soupServings(int N) {
-    	int A, B;
-    	// 去除 k *（250 * A + 150 * B）,因为按均匀概率来看待的话，
-    	// 一次将四个执行都一遍会消耗 （250ml A + 150ml B），这部分超出的量不对最后的结果造成影响
-        if(N > 250) {	
-        	A = N % 250;
-        	B = N - 150 * (N / 250);
-        }
-        
-        
-        
+        return N >= 4800 ?  1.0 : f((N + 24) / 25, (N + 24) / 25);
+    }
+    double f(int a, int b) {
+        if (a <= 0 && b <= 0) return 0.5;
+        if (a <= 0) return 1;
+        if (b <= 0) return 0;
+        if (memo[a][b] > 0) return memo[a][b];
+        memo[a][b] = 0.25 * (f(a-4,b)+f(a-3,b-1)+f(a-2,b-2)+f(a-1,b-3));
+        return memo[a][b];
     }
 };
