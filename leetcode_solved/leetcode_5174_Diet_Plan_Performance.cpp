@@ -5,7 +5,7 @@
  */
 class Solution {
 public:
-	void generate(vector<int> a, int k, vector<int> &dp) {
+    void generate(vector<int> a, int k, vector<int> &dp) {
         int size = dp.size() - 1;
         dp[k] = 0;
         for (int i = 0; i < k; i++)
