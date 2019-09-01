@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.9.1 | `leetcode_5173_Prime_Arrangements`,<br/>`leetcode_5174_Diet_Plan_Performance` |
 | 2019.8.31 | `leetcode_1163_Last_Substring_in_Lexicographical_Order`,<br/>`leetcode_0074_Search_a_2D_Matrix` |
 | 2019.8.30 | `leetcode_0768_Max_Chunks_To_Make_Sorted_II` |
 | 2019.8.28 | `leetcode_1157_Online_Majority_Element_In_Subarray`          |
