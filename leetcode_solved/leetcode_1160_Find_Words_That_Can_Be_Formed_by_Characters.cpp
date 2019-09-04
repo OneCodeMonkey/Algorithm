@@ -5,44 +5,56 @@
 class Solution {
 public:
 	int check(string word, vector<char> chars1) {
-		int sizeChars1 = chars1.size();
-		vector<char> word1;
-		for(auto charItem:word) {
-			word1.push_back(charItem);
-		}
-		int sizeWord1 = word1.size();
+        int sizeChars1 = chars1.size();
+        vector<char> word1;
+        for (auto charItem : word) {
+            word1.push_back(charItem);
+        }
 
-		// 顺序逐位对比，在 chars 中有重复的就跳过重复的 char
-		int posChars = 0;
-		char lastChar;
-		for(int i = 0; i < sizeWord1; i++) {
-			if(word1[i] == chars1[posChars]) {
-				posChars++;
-				lastChar = word1[i];
-			} else if(chars1[posChars] == lastChar) {
-				while(chars1[posChars] == lastChar && posChars < sizeChars1 - 1)
-					posChars++;
-				if(word1[i] == chars1[posChars]) {
-					posChars++;
-					lastChar = word1[i];
-				} else {	// 出现不匹配了
-					return 0;
-				}
-			} else {	// 出现不匹配了
-				return 0;
-			}
-		}
+        sort(word1.begin(), word1.end());
+        int sizeWord1 = word1.size();
 
-		return sizeWord1;
-	}
+        // 顺序逐位对比，在 chars 中有重复的就跳过重复的 char
+        int posChars = 0;
+        char lastChar = 'A';
+        for (int i = 0; i < sizeWord1; i++) {
+            if (word1[i] == chars1[posChars]) {
+                posChars++;
+                lastChar = word1[i];
+                continue;
+            }
+            // 如果有重复字符，跳过重复字符
+            if (chars1[posChars] == lastChar) {
+                while (chars1[posChars] == lastChar && posChars < sizeChars1 - 1)
+                    posChars++;
+                if (word1[i] == chars1[posChars]) {
+                    posChars++;
+                    lastChar = word1[i];
+                    continue;
+                }
+            }
+            // 跳过重复字符仍不匹配，继续尝试往下寻找更大的字符能不能匹配，如果走到了最末尾仍不匹配，则代表不满足
+            while (chars1[posChars] != word1[i] && posChars < sizeChars1){
+                posChars++;
+                if (posChars == sizeChars1)	// 剩余的字符都不满足
+                    return 0;
+            }
+            lastChar = word1[i];
+        }
+
+        return sizeWord1;
+    }
+    
     int countCharacters(vector<string>& words, string chars) {
         int ans = 0;
         vector<char> chars1;
-        for(auto charItem:chars)
-        	chars1.push_back(charItem);
+        for (auto charItem : chars)
+            chars1.push_back(charItem);
 
-        for(auto word:words) {
-        	ans += check(word, chars1);
+        sort(chars1.begin(), chars1.end());
+
+        for (auto word : words) {
+            ans += check(word, chars1);
         }
 
         return ans;
