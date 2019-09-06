@@ -1,4 +1,7 @@
 /**
+ * AC:
+ * Runtime: 28 ms, faster than 57.55% of C++ online submissions for Find Pivot Index.
+ * Memory Usage: 9.8 MB, less than 95.24% of C++ online submissions for Find Pivot Index.
  * 思路：先求和。然后在 i 位置，判断 [0, i] 的和是否等于 (sum + a[i]) / 2
  *
  */
