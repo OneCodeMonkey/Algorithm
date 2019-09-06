@@ -8,20 +8,25 @@ class Solution {
 public:
 	void doOperation(vector<int>& stones) {
 		sort(stones.begin(), stones.end());
-		vector<int>::iterator largest = stones.begin() + stones.size() - 1;
-		vector<int>::iterator second = stones.begin() + stones.size() - 2;
-		if(*largest > *second)
-			stones.insert(second, (*largest - *second));
+		int size = stones.size(), temp = 0;
+		vector<int>::iterator largest = stones.begin() + size - 1;
+		vector<int>::iterator second = stones.begin() + size - 2;
+
+		if (*largest > *second)
+			temp = (*largest - *second);
+
 		stones.erase(largest);
 		stones.erase(second);
+		if(temp > 0)
+			stones.push_back(temp);
 	}
-    int lastStoneWeightII(vector<int>& stones) {
-        while(stones.size() > 1) {
-        	doOperation(stones);
-        }
-    	if(stones.size() == 0)
-    		return 0;
-    	if(stones.size() == 1)
-    		return stones[0];
-    }
+	int lastStoneWeightII(vector<int>& stones) {
+		while (stones.size() > 1) {
+			doOperation(stones);
+		}
+		if (stones.size() == 0)
+			return 0;
+		if (stones.size() == 1)
+			return stones[0];
+	}
 };
