@@ -1,4 +1,7 @@
 /**
+ * AC:
+ * Runtime: 20 ms, faster than 64.12% of C++ online submissions for Trim a Binary Search Tree.
+ * Memory Usage: 21.5 MB, less than 84.21% of C++ online submissions for Trim a Binary Search Tree.
  * 思路：二叉搜索树删减元素，使剩余的元素都能落在给定的区间以内
  * 递归判断 root 的值与 [L, R] 的关系。
  */
