@@ -1,9 +1,10 @@
-![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Leetcode%20|%20Rating-1506-green.svg>) &nbsp; ![leetcode badge](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Leetcode%20|%20Ranking-38487/112269-green.svg>) &nbsp; ![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Solved/Total-{{.solved_question}}/{{.all_question}}-green.svg>) &nbsp; ![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Accepted/Total-{{.accepted_submission}}/{{.all_submission}}-green.svg>)
+![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Leetcode%20|%20Rating-1506-green.svg>) &nbsp; ![leetcode badge](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Leetcode%20|%20Global%20Ranking-38487/112269-green.svg>) &nbsp; ![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Solved/Total-{{.solved_question}}/{{.all_question}}-green.svg>) &nbsp; ![leetcode](<https://leetcode-badge.chyroc.cn/?name=ly2015cntj&leetcode_badge_style=Accepted/Total-{{.accepted_submission}}/{{.all_submission}}-green.svg>)
 
 basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.9.3 | `leetcode_1178_Number_of_Valid_Words_for_Each_Puzzle` |
 | 2019.9.1 | `leetcode_5173_Prime_Arrangements`,<br/>`leetcode_5174_Diet_Plan_Performance` |
 | 2019.8.31 | `leetcode_1163_Last_Substring_in_Lexicographical_Order`,<br/>`leetcode_0074_Search_a_2D_Matrix` |
 | 2019.8.30 | `leetcode_0768_Max_Chunks_To_Make_Sorted_II` |
