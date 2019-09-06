@@ -3,6 +3,9 @@
  * 将结果写回原数组（同时删除此次操作的两颗石子），再对新数组排序，继续重复操作，
  * 直至只剩一颗石子或为空（空返0）。
  * 
+ * 试验失败。反例：[31,26,33,21,40]   output: 9  expected: 5
+ * 
+ * 
  */
 class Solution {
 public:
@@ -28,5 +31,8 @@ public:
 			return 0;
 		if (stones.size() == 1)
 			return stones[0];
+
+		return 0;		// 不会走到这一步，但貌似 leetcode 的编译器必须要形式上有这个返回值，
+						// 本地 VS2017 C++ 环境调试可以不加这行
 	}
 };
