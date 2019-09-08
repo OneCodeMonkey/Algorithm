@@ -35,7 +35,7 @@ public:
         		return "Saturday";
         }
 
-        string s = "Monday";
+        string s = "Monday";	// 这里无意义，只是因为 leetcode 的编译器要求必须有一个返回值，实际上不可能走到这里，但还是要加上一句。
         return s;
     }
 };
