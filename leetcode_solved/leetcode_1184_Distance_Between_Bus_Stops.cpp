@@ -1,3 +1,9 @@
+/**
+ * AC:
+ * Runtime: 8 ms, faster than 48.05% of C++ online submissions for Distance Between Bus Stops.
+ * Memory Usage: 9.3 MB, less than 100.00% of C++ online submissions for Distance Between Bus Stops.
+ *
+ */
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
