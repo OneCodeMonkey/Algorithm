@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.9.10 | `leetcode_0214_Shortest_Palindrome` |
 | 2019.9.9 | `leetcode_0202_Happy_Number`,<br/>`leetcode_1184_Distance_Between_Bus_Stops` |
 | 2019.9.8 | `leetcode_1185_Day_of_the_Week` |
 | 2019.9.6 | `leetcode_0669_Trim_a_Binary_Search_Tree` |
