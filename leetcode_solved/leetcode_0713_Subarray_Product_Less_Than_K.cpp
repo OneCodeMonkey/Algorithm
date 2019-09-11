@@ -6,31 +6,30 @@
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
-        int size = nums.size();
-        int ans = 0;
-        vector<vector<int>> dp(size, vector<int>(size, 0));
-        for(int i = 0; i < size; i++) {
-        	for(int j = i; j < size; j++) {
-        		if(j == i) {
-        			if(nums[i] >= k)
-        				dp[i][j] = -1;
-        			else {
-        				dp[i][j] = nums[j];
-        				ans++;
-        			}
-        		} else {
-        			if(dp[i][j - 1] == -1)
-        				dp[i][j] = -1;
-        			else if(dp[i][j - 1] * nums[j] >= k)
-        				dp[i][j] = -1;
-        			else {
-        				dp[i][j] = dp[i][j - 1] * nums[j];
-        				ans++;
-        			}
-        		}
-        	}
-        }
+		int size = nums.size();
+		int ans = 0;
+		vector<vector<int>> dp(size, vector<int>(size, 0));
+		for (int i = 0; i < size; i++) {
+			if (nums[i] >= k)
+				dp[i][i] = -1;
+			else {
+				dp[i][i] = nums[i];
+				ans++;
+			}
+		}
+		for (int i = 0; i < size; i++) {
+			for (int j = i + 1; j < size; j++) {
+				if (dp[i][j - 1] == -1)
+					dp[i][j] = -1;
+				else if (dp[i][j - 1] * nums[j] >= k)
+					dp[i][j] = -1;
+				else {
+					dp[i][j] = dp[i][j - 1] * nums[j];
+					ans++;
+				}
+			}
+		}
 
-        return ans;
-    }
+		return ans;
+	}
 };
