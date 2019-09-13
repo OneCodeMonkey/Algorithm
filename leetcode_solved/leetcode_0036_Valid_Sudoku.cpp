@@ -62,14 +62,16 @@ public:
 		}
 
 		for (int t = 0; t < 3; t++) {		// 小九宫格
-			square.clear();
-			for (int i = 0; i < 3; i++) {
-				for (int j = 0; j < 3; j++) {
-					square.push_back(board[i + 3 * t][j + 3 * t]);
+			for (int r = 0; r < 3; r++) {
+				square.clear();
+				for (int i = 0; i < 3; i++) {
+					for (int j = 0; j < 3; j++) {
+						square.push_back(board[i + 3 * t][j + 3 * r]);
+					}
 				}
+				if (!checkSquare(square))
+					return false;
 			}
-			if (!checkSquare(square))
-				return false;
 		}
 
 		return true;
