@@ -1,3 +1,10 @@
+/**
+ * AC：
+ * Runtime: 12 ms, faster than 89.95% of C++ online submissions for Valid Sudoku.
+ * Memory Usage: 10.7 MB, less than 38.46% of C++ online submissions for Valid Sudoku.
+ * 思路：没有什么简便算法，还是逐行，逐列，逐方块的检验。
+ *
+ */
 class Solution {
 public:
 	bool checkRow(vector<char> row) {
