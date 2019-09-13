@@ -1,4 +1,8 @@
 /**
+ * 思路：写一个交换的处理即可。
+ *
+ */
+/**
  * Definition for singly-linked list.
  * struct ListNode {
  *     int val;
@@ -9,6 +13,6 @@
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        
+        while(head)
     }
 };
