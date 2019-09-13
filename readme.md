@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.9.13 | `leetcode_0023_Merge_k_Sorted_Lists`,<br/>`leetcode_0036_Valid_Sudoku` |
 | 2019.9.11 | `leetcode_0021_Merge_Two_Sorted_Lists`,<br/>`leetcode_0713_Subarray_Product_Less_Than_K` |
 | 2019.9.10 | `leetcode_0214_Shortest_Palindrome` |
 | 2019.9.9 | `leetcode_0202_Happy_Number`,<br/>`leetcode_1184_Distance_Between_Bus_Stops` |
