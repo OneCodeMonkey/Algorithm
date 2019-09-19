@@ -7,7 +7,7 @@ public:
         int flag = 1;	// 是否需要进位
         for(int i = size - 1; i >= 0; i--) {
         	if(flag == 1) {
-        		if(digits[i] + 1 > 10) {
+        		if(digits[i] + 1 >= 10) {
 	        		digits[i] = (digits[i] + 1) % 10;
 	        		flag = 1;
 	        		if(i == 0) {
