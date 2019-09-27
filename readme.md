@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.9.27 | `leetcode_0118_Pascal's_Triangle` |
 | 2019.9.19 | `leetcode_0066_Plus_One` |
 | 2019.9.13 | `leetcode_0023_Merge_k_Sorted_Lists`,<br/>`leetcode_0036_Valid_Sudoku`,<br/>`leetcode_0037_Sudoku_Solver`,<br/>`leetcode_0932_Beautiful_Array`,<br/>`leetcode_24_Swap_Nodes_in_Pairs` |
 | 2019.9.11 | `leetcode_0021_Merge_Two_Sorted_Lists`,<br/>`leetcode_0713_Subarray_Product_Less_Than_K` |
