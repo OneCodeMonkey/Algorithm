@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.9.30 | `leetcode_0136_Single_Number` |
 | 2019.9.28 | `leetcode_0120_Triangle` |
 | 2019.9.27 | `leetcode_0118_Pascal's_Triangle`,<br/>`leetcode_0119_Pascal's_Triangle_II` |
 | 2019.9.19 | `leetcode_0066_Plus_One` |
