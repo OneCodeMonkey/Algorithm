@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.10.9 | `leetcode_0204_Count_Primes` |
 | 2019.10.6 | `leetcode_0169_Majority_Element` |
 | 2019.10.4 | `leetcode_0160_Intersection_of_Two_Linked_Lists` |
 | 2019.9.30 | `leetcode_0136_Single_Number` |
