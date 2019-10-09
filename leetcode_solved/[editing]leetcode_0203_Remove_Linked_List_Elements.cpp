@@ -9,6 +9,15 @@
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
-        
+        ListNode** list = &head;
+
+        while(*list != nullptr) {
+        	if((*list)->val == val)
+        		*list = (*list)->next;
+        	else
+        		list = &((*list)->next);	// 跳到下一个指针
+        }
+
+        return head;
     }
 };
