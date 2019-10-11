@@ -26,8 +26,6 @@ public:
     		pre->next = cur->next;
     		cur->next = cur->next->next;	// 循环依据自增
     		pre->next->next = temp;
-
-    		
     	}
 
     	return pre->next;	// 返回新的头指针
