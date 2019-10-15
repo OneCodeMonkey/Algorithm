@@ -4,6 +4,7 @@ basic_tutorial: https://open.163.com/movie/2010/12/G/F/M6UTT5U0I_M6V2T1JGF.html
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.10.15 | `leetcode_0231_Power_of_Two` |
 | 2019.10.11 | `leetcode_0206_Reverse_Linked_List`, `leetcode_0214_Shortest_Palindrome` |
 | 2019.10.10 | `leetcode_0205_Isomorphic_Strings` |
 | 2019.10.9 | `leetcode_0204_Count_Primes`, `leetcode_0203_Remove_Linked_List_Elements` |
