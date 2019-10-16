@@ -2,6 +2,7 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.10.16 | `leetcode_0226_Invert_Binary_Tree` |
 | 2019.10.15 | `leetcode_0231_Power_of_Two`,<br/>`leetcode_0030_Substring_with_Concatenation_of_All_Words` |
 | 2019.10.11 | `leetcode_0206_Reverse_Linked_List`, `leetcode_0214_Shortest_Palindrome` |
 | 2019.10.10 | `leetcode_0205_Isomorphic_Strings` |
