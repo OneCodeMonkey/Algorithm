@@ -1,4 +1,4 @@
-This folder contain most of the famous algorithm, and they are implemented in Java.
+This folder contain most of the famous algorithm.
 
 #### 算法目录：
 
