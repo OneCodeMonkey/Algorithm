@@ -2,6 +2,7 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.10.19 | `leetcode_0038_Count_and_Say` |
 | 2019.10.18 | `leetcode_0268_Missing_Number`,<br/>`leetcode_0263_Ugly_Number`,<br/>`leetcode_0264_Ugly_Number_II` |
 | 2019.10.17 | `leetcode_0037_Sudoku_Solver` |
 | 2019.10.16 | `leetcode_0226_Invert_Binary_Tree` |
