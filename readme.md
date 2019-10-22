@@ -2,7 +2,8 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
-| 2019.10.20 | `leetcode_0027_Remove_Element` |
+| 2019.10.22 | `leetcode_0303_Range_Sum_Query_-_Immutable` |
+| 2019.10.20 | `l1eetcode_0027_Remove_Element` |
 | 2019.10.19 | `leetcode_0038_Count_and_Say` |
 | 2019.10.18 | `leetcode_0268_Missing_Number`,<br/>`leetcode_0263_Ugly_Number`,<br/>`leetcode_0264_Ugly_Number_II` |
 | 2019.10.17 | `leetcode_0037_Sudoku_Solver` |
