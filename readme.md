@@ -2,6 +2,7 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.10.28 | `leetcode_0342_Power_of_Four` |
 | 2019.10.25 | `leetcode_0326_Power_of_Three` |
 | 2019.10.22 | `leetcode_0303_Range_Sum_Query_-_Immutable` |
 | 2019.10.20 | `l1eetcode_0027_Remove_Element` |
