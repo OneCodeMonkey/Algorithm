@@ -2,7 +2,7 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
-| 2019.11.08 | `leetcode_0409_Longest_Palindrome`,<br/>`leetcode_0401_Binary_Watch` |
+| 2019.11.08 | `leetcode_0409_Longest_Palindrome`,<br/>`leetcode_0401_Binary_Watch`,<br/>`leetcode_0404_Sum_of_Left_Leaves` |
 | 2019.11.01 | `codeForces_4A_A_Watermelon` |
 | 2019.10.28 | `leetcode_0342_Power_of_Four` |
 | 2019.10.25 | `leetcode_0326_Power_of_Three` |
