@@ -115,8 +115,6 @@ Status Traverse(BTree t, LinkList L, int newline, int sum);
 // 打印 B 树
 Status PrintBTree(BTree t);
 
-void Test1();
-
-void Test2();
+void Test();
 
 #endif

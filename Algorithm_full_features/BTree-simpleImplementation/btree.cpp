@@ -435,45 +435,7 @@ Status PrintBTree(BTree t)
 	return OK;
 }
 
-void Test1()
-{
-	system("color 70");
-	BTNode *t = NULL;
-	Result s;                                       //设定查找结果 
-	int j, n = 15;
-	KeyType k;
-	KeyType a[] = { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 };
-	printf("创建一棵%d阶B树:\n", m);
-	for (j = 0; j < n; j++) {                               //逐一插入元素 
-		s = SearchBTree(t, a[j]);
-		if (s.tag == 0)
-			InsertBTree(t, s.i, a[j], s.pt);
-		printf("   第%d步,插入元素%d:\n ", j + 1, a[j]);
-		PrintBTree(t);
-	}
-
-	printf("\n");
-	printf("删除操作:\n");                          //删除操作 
-	k = 9;
-	BTreeDelete(t, k);
-	printf("  删除%d:\n ", k);
-	printf("  删除后的B树: \n");
-	PrintBTree(t);
-	printf("\n");
-
-	k = 1;
-	BTreeDelete(t, k);
-	printf("  删除%d:\n ", k);
-	printf("  删除后的B树: \n");
-	PrintBTree(t);
-	printf("\n");
-
-	printf("  递归释放B树\n");                       //递归释放B树
-	DestroyBTree(t);
-	PrintBTree(t);
-}
-
-void Test2()
+void Test()
 {
 	int i, k;
 	system("color 5E");
@@ -525,6 +487,6 @@ void Test2()
 }
 
 int main() {
-	Test2();
+	Test();
 	return 0;
 }
