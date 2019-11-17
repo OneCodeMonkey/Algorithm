@@ -1,4 +1,13 @@
-B树定义：
+**使用方法：**
+（Linux 或 mac 下）使用 GCC 编译器（version >= 4.4）, 执行:
+
+```shell
+cd [项目目录]
+gcc btree.cpp -o btree.out
+./btree.out
+```
+
+**B树定义：**
 
 1.本质是一个平衡的 m 叉搜索树（m >= 2）
 
