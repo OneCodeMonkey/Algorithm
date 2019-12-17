@@ -2,6 +2,8 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
+| 2019.12.17 | `leetcode_0067_Add_Binary` |
+| 2019.12.08 | `leetcode_1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer`, <br/>
 | 2019.11.08 | `leetcode_0409_Longest_Palindrome`,<br/>`leetcode_0401_Binary_Watch`,<br/>`leetcode_0404_Sum_of_Left_Leaves` |
 | 2019.11.01 | `codeForces_4A_A_Watermelon` |
 | 2019.10.28 | `leetcode_0342_Power_of_Four` |
