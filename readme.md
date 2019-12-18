@@ -2,7 +2,7 @@ Algorithm practices.
 
 | Date      | Solved Count & Detail                                        |
 | --------- | ------------------------------------------------------------ |
-| 2019.12.18 | `codeForces_1A_A_Theatre_Square` |
+| 2019.12.18 | `codeForces_1A_A_Theatre_Square`,<br/>`codeForces_13A_Numbers` |
 | 2019.12.17 | `leetcode_0067_Add_Binary` |
 | 2019.12.08 | `leetcode_1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer`, <br/>
 | 2019.11.08 | `leetcode_0409_Longest_Palindrome`,<br/>`leetcode_0401_Binary_Watch`,<br/>`leetcode_0404_Sum_of_Left_Leaves` |
