@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int removePalindromeSub(string s) {
+    int countTriplets(vector<int>& arr) {
         
     }
 };

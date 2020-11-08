@@ -1,0 +1,806 @@
+[33m91f46e5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m leetcode_week_189
+[33mf892a4c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m modify
+[33me48a35e[m leetcode_biweek_26
+[33m3df67f9[m try
+[33mfbb36e7[m leetcode_solved/leetcode_0041_First_Missing_Positive.cpp
+[33me4421bf[m update
+[33mf5aba88[m daily
+[33mca6d5d7[m daily
+[33m30e4e5e[m question log- 2020/4/07 - 1
+[33m2b62792[m upate
+[33m15f9ee1[m update
+[33mf21e463[m .
+[33ma1c61b9[m .
+[33mf5d5aa2[m .
+[33m758ceb9[m .
+[33m01ae84b[m .
+[33mf4bca3d[m .
+[33m008e72e[m .
+[33m98a9c4b[m .
+[33ma0afba4[m .
+[33m7adcfd1[m .
+[33ma6aeab4[m .
+[33me5de5ed[m .
+[33m099050c[m .
+[33m89f210f[m .
+[33mcd814ae[m .
+[33mb560cbf[m .
+[33m8c60de1[m .
+[33mc43870b[m .
+[33m0119df5[m .
+[33m7cfc39f[m .
+[33maead820[m .
+[33mbd2b563[m .
+[33m41e1acf[m [not completed]leetcode_5309_Number_of_Operations_to_Make_Network_Connected
+[33m034994d[m leetcode week 171: 1,2
+[33mac3a8d1[m .
+[33ma597ab9[m [refered]leetcode_5146_Distinct_Echo_Substrings
+[33m60367ae[m [not completed]leetcode contest biweekly 17
+[33ma923592[m [not completed]leetcode contest biweekly 17
+[33m5334d23[m .
+[33m87a2e7d[m leetcode_0039_Combination_Sum
+[33m094a8b6[m .
+[33mca112dc[m .
+[33m02fd1dd[m .
+[33m41e68c9[m .
+[33m120a143[m .
+[33ma7df04f[m .
+[33md875ed4[m .
+[33meed15f2[m .
+[33m60d44b3[m .
+[33m4c288d5[m .
+[33m7d0a348[m .
+[33m8d7c24d[m supplement
+[33m215f289[m .
+[33m0cd567d[m .
+[33m762247f[m .
+[33m044401d[m .
+[33m28dcdaa[m .
+[33mc59034f[m .
+[33m1fc4e39[m .
+[33m0832a17[m .
+[33m621240e[m .
+[33mddc6565[m .
+[33mbeec20a[m .
+[33md14bac9[m codeForces_13A_Numbers
+[33mccf6838[m update
+[33m4d89639[m optimize
+[33m7fc91eb[m .
+[33m3479995[m codeForces_1A_A_Theatre_Square
+[33m17c66c8[m update
+[33m2670d44[m update.
+[33m5701ada[m leet0067 ——add binary
+[33mb6d6bc0[m .
+[33m3f82d0c[m .
+[33m9b69a7d[m .
+[33mbaa413e[m .
+[33m4554e74[m .
+[33m83b2946[m .
+[33m0bfa5e9[m .
+[33m2e298c7[m .
+[33m963a0a2[m .
+[33m5ef3632[m not done
+[33ma2dec7f[m leetcode_1281_Subtract_the_Product_and_Sum_of_Digits_of_an_Integer
+[33mb073ba6[m 2019.12.7 & 2019.12.8
+[33m16b747b[m .
+[33ma2a9c3d[m .
+[33mb408d4b[m daily
+[33m546cbfd[m daily
+[33m33eeabe[m .
+[33m98d8a3e[m .
+[33m7851cf4[m .
+[33mefc9990[m .
+[33m23e2cf8[m leetcode_0538_Convert_BST_to_Greater_Tree
+[33m62bfe61[m .
+[33me2e47b7[m .
+[33m747c647[m .
+[33mba31662[m .
+[33mf9ab6f0[m .
+[33m48ec116[m .
+[33mec283c0[m .
+[33m97257e9[m .
+[33m2ee9006[m .
+[33mb27d76f[m .
+[33m95f4c8c[m .
+[33md6f1624[m fix
+[33mf886500[m add usage
+[33m4271c76[m modify
+[33m0faf174[m btree implementation
+[33m8ffe9c1[m btree header file
+[33m7276870[m readme.md
+[33m47d30d7[m codeForces_13D_D_Triangles
+[33mee31996[m .
+[33maffe886[m .
+[33m2ecf88e[m .
+[33m4bb090d[m .
+[33m38a9142[m .
+[33ma169535[m .
+[33mde178bd[m .
+[33m6e5fa19[m .
+[33m6698bc3[m .
+[33m57a08b0[m leetcode_0404_Sum_of_Left_Leaves
+[33m538d905[m leetcode_0404_Sum_of_Left_Leaves
+[33m6636d77[m leetcode_0401_Binary_Watch
+[33mdca7b39[m leetcode_0401_Binary_Watch
+[33m987f86d[m update
+[33mcee8c90[m rename
+[33m9b67f4c[m daily
+[33m87af531[m daily
+[33m70bb4cc[m daily
+[33m10bf502[m daily
+[33md54f45d[m daily
+[33m40f5d25[m daily
+[33mf5c1da3[m update
+[33m0088446[m codeforces first solution! yeah~
+[33mca3c0a0[m daily
+[33mb6cebb4[m daily
+[33med429f6[m daily
+[33m70b2685[m daily
+[33m99905c8[m update
+[33mc1203f5[m rename
+[33mab18109[m daily
+[33m865e876[m daily
+[33m1027622[m daily
+[33m5079206[m update
+[33m82a01ab[m rename
+[33m38930ec[m leetcode_0326_Power_of_Three
+[33mb20c0b8[m daily
+[33mb65c6db[m daily
+[33md860b93[m daily
+[33me13c508[m update
+[33mc9d523b[m rename
+[33m63cb7e2[m rename
+[33m723942e[m leetcode_0303_Range_Sum_Query_-_Immutable
+[33m28fa32a[m daily
+[33mf79c274[m daily
+[33mc0bcbff[m update
+[33m68647a8[m rename
+[33m6d1f8ba[m leetcode_0027_Remove_Element
+[33m87dcdec[m daily
+[33ma1e6cbc[m remove
+[33m5c942aa[m update
+[33m6a809ab[m rename
+[33m6a7f7c6[m leetcode_0038_Count_and_Say
+[33m3d444f4[m update
+[33m3da313a[m daily
+[33m9e291cc[m update
+[33mf698eb4[m leetcode_0264_Ugly_Number_II
+[33m7c39ef3[m leetcode_0264_Ugly_Number_II
+[33m05bf3a1[m update
+[33mf4ab876[m leetcode_0263_Ugly_Number
+[33mfa95ad2[m leetcode_0263_Ugly_Number
+[33mfbcd3db[m update
+[33m853ec84[m leetcode_0268_Missing_Number
+[33m5fcf59d[m daily
+[33m8cde697[m update
+[33m226867e[m rename
+[33m16c530d[m leetcode_0037_Sudoku_Solver
+[33m4510f36[m daily
+[33m105bea4[m daily
+[33m3e5cc96[m rename
+[33md3725d7[m update
+[33me77588f[m rename
+[33me361acf[m leetcode_0226_Invert_Binary_Tree
+[33m363d74e[m update
+[33m1238d10[m update
+[33mf2bd4da[m leetcode_0030_Substring_with_Concatenation_of_All_Words
+[33m7c954e2[m leetcode_0030_Substring_with_Concatenation_of_All_Words
+[33m3b4b954[m update
+[33m6faf7b8[m leetcode_0231_Power_of_Two
+[33md496d80[m daily
+[33m066f959[m daily
+[33mc3e3dcc[m daily
+[33m21a674d[m move
+[33m8ac7de1[m daily
+[33m1090e3c[m update
+[33mbfdfce3[m leetcode_0214_Shortest_Palindrome
+[33m415e3ac[m leetcode_0214_Shortest_Palindrome
+[33m575a5b6[m modify
+[33m99d352f[m update
+[33m626b2ee[m leetcode_0206_Reverse_Linked_List
+[33mb10e85d[m leetcode_0206_Reverse_Linked_List
+[33m2bac2c8[m [editing]leetcode_0214_Shortest_Palindrome
+[33mce60324[m [editing]leetcode_0213_House_Robber_II
+[33m2a4fac0[m [editing]leetcode_0212_Word_Search_II
+[33mee381aa[m [editing]leetcode_0211_Add_and_Search_Word_-_Data_structure_design
+[33m508b45a[m [editing]leetcode_0210_Course_Schedule_II
+[33mbf737ba[m update
+[33maa152af[m leetcode_solved/leetcode_0205_Isomorphic_Strings.cpp
+[33m6d70b8e[m [editing]leetcode_0209_Minimum_Size_Subarray_Sum
+[33m855da8b[m [editing]leetcode_0208_Implement_Trie_(Prefix_Tree)
+[33me5465de[m [editing]leetcode_0207_Course_Schedule
+[33md78ffb1[m [editing]leetcode_0206_Reverse_Linked_List
+[33m126e4f4[m [editing]leetcode_0205_Isomorphic_Strings
+[33m6a9a069[m \[editing\]leetcode_0689_Maximum_Sum_of_3_Non-Overlapping_Subarrays
+[33m2095e92[m update
+[33m8aa1a6b[m leetcode_0203_Remove_Linked_List_Elements
+[33mc6f948c[m leetcode_0203_Remove_Linked_List_Elements
+[33mad3a8a1[m update
+[33m7f32409[m leetcode_0204_Count_Primes
+[33m86f167d[m leetcode_0204_Count_Primes
+[33m88812d1[m [editing]leetcode_0204_Count_Primes
+[33m0739602[m [editing]leetcode_0203_Remove_Linked_List_Elements
+[33m55555db[m [editing]leetcode_0201_Bitwise_AND_of_Numbers_Range
+[33me57f2c3[m [editing]leetcode_0200_Number_of_Islands
+[33ma865bfc[m [editing]leetcode_0199_Binary_Tree_Right_Side_View
+[33mb171b93[m [editing]leetcode_0198_House_Robber
+[33mc861e5b[m [editing]leetcode_0193_Valid_Phone_Numbers
+[33m11a8c99[m [editing]leetcode_0192_Word_Frequency
+[33m2e7ebd5[m [editing]leetcode_0191_Number_of_1_Bits
+[33m0a40ec9[m [editing]leetcode_0190_Reverse_Bits
+[33m8f5c4bc[m leetcode_0137_Single_Number_II
+[33m2e9f582[m update
+[33m6643009[m leetcode_0179_Largest_Number
+[33m8cda017[m [editing]leetcode_0189_Rotate_Array
+[33md2df5af[m [editing]leetcode_0188_Best_Time_to_Buy_and_Sell_Stock_IV
+[33me906749[m [editing]leetcode_0187_Repeated_DNA_Sequences
+[33m42c247a[m [editing]leetcode_0180_Consecutive_Numbers
+[33m119250b[m update
+[33m94e7620[m leetcode_0169_Majority_Element
+[33m4582525[m [editing]leetcode_0174_Dungeon_Game
+[33m5fad03b[m [editing]leetcode_0173_Binary_Search_Tree_Iterator
+[33mc82a97f[m [editing]leetcode_0172_Factorial_Trailing_Zeroes
+[33mc67aa73[m [editing]leetcode_0171_Excel_Sheet_Column_Number
+[33mbed89c2[m [editing]leetcode_0169_Majority_Element
+[33ma7eada0[m [editing]leetcode_0168_Excel_Sheet_Column_Title
+[33m82d26be[m [editing]leetcode_0167_Two_Sum_II_-_Input_array_is_sorted
+[33m9bea879[m [editing]leetcode_0166_Fraction_to_Recurring_Decimal
+[33m08b3815[m [editing]leetcode_0165_Compare_Version_Numbers
+[33maa34026[m [editing]leetcode_0164_Maximum_Gap
+[33ma415cbd[m leetcode_0155_Min_Stack
+[33m3da8cf6[m [editing]leetcode_0155_Min_Stack
+[33me22caf2[m update
+[33m637d5ff[m rename
+[33mf0186eb[m [editing]leetcode_0160_Intersection_of_Two_Linked_Lists
+[33m2308c2d[m [editing]leetcode_0160_Intersection_of_Two_Linked_Lists
+[33me75df86[m [editing]leetcode_0162_Find_Peak_Element
+[33mda13bf5[m [editing]leetcode_0154_Find_Minimum_in_Rotated_Sorted_Array_II
+[33m0764b38[m [editing]leetcode_0160_Intersection_of_Two_Linked_Lists
+[33m9983efa[m [editing]leetcode_0155_Min_Stack
+[33m1a2b771[m [editing]leetcode_0153_Find_Minimum_in_Rotated_Sorted_Array
+[33m1a93bcf[m [editing]leetcode_0152_Maximum_Product_Subarray
+[33mac967da[m [editing]leetcode_0151_Reverse_Words_in_a_String
+[33mbc4cc50[m [editing]leetcode_0150_Evaluate_Reverse_Polish_Notation
+[33m1ba118e[m [editing]leetcode_0149_Max_Points_on_a_Line
+[33m577c28c[m [editing]leetcode_0148_Sort_List
+[33m77b4da6[m [editing]leetcode_0147_Insertion_Sort_List
+[33mc7218e3[m [editing]leetcode_0146_LRU_Cache
+[33m3d4bc2f[m [editing]leetcode_0145_Binary_Tree_Postorder_Traversal
+[33m0e51ff6[m [editing]leetcode_0144_Binary_Tree_Preorder_Traversal
+[33m1e64329[m [editing]leetcode_0143_Reorder_List
+[33mf02261a[m [editing]leetcode_0142_Linked_List_Cycle_II
+[33m809a0a1[m [editing]leetcode_0141_Linked_List_Cycle
+[33m734182b[m [editing]leetcode_0140_Word_Break_II
+[33m775e74b[m [editing]leetcode_0139_Word_Break
+[33m3ff8899[m [editing]leetcode_0138_Copy_List_with_Random_Pointer
+[33m3ec5640[m leetcode_0024_Swap_Nodes_in_Pairs
+[33m2f80236[m update
+[33m6a763d3[m qualified: leetcode_0136_Single_Number
+[33m5ffdca4[m leetcode_0136_Single_Number
+[33ma125d29[m leetcode_0136_Single_Number
+[33m48a4b3c[m [editing]leetcode_0137_Single_Number_II
+[33m0514a25[m [editing]leetcode_0136_Single_Number
+[33m6778db8[m [editing]leetcode_0135_Candy
+[33m185ed77[m [editing]leetcode_0134_Gas_Station
+[33m5935284[m [editing]leetcode_0133_Clone_Graph
+[33m356e4a4[m [editing]leetcode_0131_Palindrome_Partitioning
+[33m2ce7184[m [editing]leetcode_0130_Surrounded_Regions
+[33m1280e08[m [editing]leetcode_0129_Sum_Root_to_Leaf_Numbers
+[33m249693b[m [editing]leetcode_0128_Longest_Consecutive_Sequence
+[33m0aa85d8[m [editing]leetcode_0127_Word_Ladder
+[33md32e708[m fix
+[33mbbd0b6f[m [editing]leetcode_0126_Word_Ladder_II
+[33m5f5ab95[m [editing]leetcode_0124_Binary_Tree_Maximum_Path_Sum
+[33m93ae284[m [editing]leetcode_0122_Best_Time_to_Buy_and_Sell_Stock_II
+[33m8aa5d8e[m leetcode_0120_Triangle
+[33mf46e409[m leetcode_0120_Triangle
+[33ma7e0a4f[m [editing]leetcode_0120_Triangle
+[33m4e20db2[m leetcode_0119_Pascal's_Triangle_II
+[33m3205934[m leetcode_0119_Pascal's_Triangle_II
+[33m9f243c8[m leetcode_0118_Pascal's_Triangle
+[33m0664c26[m leetcode_0118_Pascal's_Triangle
+[33m4cee882[m leetcode_0118_Pascal's_Triangle
+[33mb45e82f[m [editing]leetcode_0118_Pascal's_Triangle
+[33ma57b3bc[m [editing]leetcode_0117_Populating_Next_Right_Pointers_in_Each_Node_II
+[33m7075e1c[m [editing]leetcode_0116_Populating_Next_Right_Pointers_in_Each_Node
+[33m8e54d33[m [editing]leetcode_0114_Flatten_Binary_Tree_to_Linked_List
+[33m62b5895[m [editing]leetcode_0113_Path_Sum_II
+[33mbbea12d[m daily
+[33ma3c4461[m leetcode_0025_Reverse_Nodes_in_k-Group
+[33mc89bb86[m leetcode_0024_Swap_Nodes_in_Pairs
+[33m1277b2e[m leetcode_0028_Implement_strStr(): KMP
+[33m523f25f[m leetcode_0028_Implement_strStr(): KMP
+[33mc10b677[m remove
+[33mf1235c6[m [editing]leetcode_0107_Binary_Tree_Level_Order_Traversal_II
+[33m55d0443[m [editing]leetcode_0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal
+[33m264d66b[m [editing]leetcode_0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal
+[33m73f6f54[m [editing]leetcode_0104_Maximum_Depth_of_Binary_Tree
+[33mfc8fcac[m [editing]leetcode_0103_Binary_Tree_Zigzag_Level_Order_Traversal
+[33m7d6334f[m [editing]leetcode_0102_Binary_Tree_Level_Order_Traversal
+[33m03370ac[m [editing]leetcode_0101_Symmetric_Tree
+[33m3af82a6[m [editing]leetcode_0100_Same_Tree
+[33m3c97a7c[m [editing]leetcode_0099_Recover_Binary_Search_Tree
+[33mace2ffe[m [editing]leetcode_0098_Validate_Binary_Search_Tree
+[33mc3f1100[m [editing]leetcode_0097_Interleaving_String
+[33m64a80f9[m [editing]leetcode_0096_Unique_Binary_Search_Trees
+[33mf249804[m [editing]leetcode_0094_Binary_Tree_Inorder_Traversal
+[33m587eba6[m [editing]leetcode_0093_Restore_IP_Addresses
+[33m5a45a7e[m [editing]leetcode_0092_Reverse_Linked_List_II
+[33m175a6c7[m [editing]leetcode_0090_Subsets_II
+[33mc73011b[m [editing]leetcode_0089_Gray_Code
+[33m2bbd03e[m [editing]leetcode_0088_Merge_Sorted_Array
+[33mb264394[m [editing]leetcode_0086_Partition_List
+[33m9ab7220[m [editing]leetcode_0083_Remove_Duplicates_from_Sorted_List
+[33m47f1b83[m rename
+[33m57f4439[m [editing]leetcode_0082_Remove_Duplicates_from_Sorted_List_II
+[33mb24f19c[m [editing]leetcode_0080_Remove_Duplicates_from_Sorted_Array_II
+[33mb987c03[m [editing]leetcode_0079_Word_Search
+[33m6d42067[m [editing]leetcode_0078_Subsets
+[33m0f8d1c1[m [editing]leetcode_0077_Combinations
+[33mb19a8a8[m rename
+[33m8186add[m modify
+[33m64473ee[m efficient algorithms series
+[33m11140c8[m [AC]leetcode_0069_Sqrt(x)
+[33ma99f396[m leetcode_0069_Sqrt(x)
+[33mbc31e5c[m [editing]leetcode_0076_Minimum_Window_Substring
+[33m79f66c4[m [editing]leetcode_0075_Sort_Colors
+[33m2a431a5[m [editing]leetcode_0073_Set_Matrix_Zeroes
+[33md2d4cff[m [editing]leetcode_0071_Simplify_Path
+[33mfd45d7f[m [editing]leetcode_0069_Sqrt(x)
+[33mc7a22b0[m [editing]
+[33m0d201a3[m [AC]leetcode_0066_Plus_One
+[33m315bbcf[m update
+[33m0c42d70[m [AC]leetcode_0066_Plus_One
+[33m13c5aa6[m another way
+[33m34e3b0c[m try
+[33mc8d46f3[m [editing]leetcode_0068_Text_Justification
+[33m8fec1ce[m leetcode_0067_Add_Binary
+[33m03ee09c[m leetcode_0066_Plus_One
+[33mfbe62f8[m [editing]leetcode_0065_Valid_Number
+[33m2611e03[m [editing]leetcode_0061_Rotate_List
+[33m4e961e7[m [AC]leetcode_0058_Length_of_Last_Word
+[33m094fecb[m add annotation
+[33m30d435b[m fix
+[33m9b69c26[m try
+[33maab46d5[m [editing]leetcode_0060_Permutation_Sequence
+[33mf6fe276[m [editing]leetcode_0059_Spiral_Matrix_II
+[33mb8544dc[m [editing]leetcode_0058_Length_of_Last_Word
+[33m3e8fd45[m [editing]leetcode_0057_Insert_Interval
+[33md169266[m [editing]leetcode_0056_Merge_Intervals
+[33m747d17d[m [editing]leetcode_0055_Jump_Game
+[33maa1e8ef[m [editing]leetcode_0054_Spiral_Matrix
+[33m7cddd02[m [editing]leetcode_0052_N-Queens_II
+[33mf24d337[m [editing]leetcode_0051_N-Queens
+[33m21639bc[m [editing]leetcode_0049_Group_Anagrams
+[33m8132696[m [editing]leetcode_0048_Rotate_Image
+[33m31a0a2d[m [editing]leetcode_0047_Permutations_II
+[33mb737c62[m [editing]leetcode_0046_Permutations
+[33m0739aff[m [editing]leetcode_0045_Jump_Game_II
+[33mc9bc9ca[m [editing]leetcode_0043_Multiply_Strings
+[33m2b71db6[m [editing]leetcode_0042_Trapping_Rain_Water
+[33me8e8396[m [editing]leetcode_0041_First_Missing_Positive
+[33md195553[m [editing]leetcode_0040_Combination_Sum_II
+[33m903e031[m [editing]leetcode_0039_Combination_Sum
+[33mfed3f28[m [editing]leetcode_0038_Count_and_Say
+[33maf48743[m [editing]leetcode_0030_Substring_with_Concatenation_of_All_Words
+[33m2d178e0[m [editing]leetcode_0028_Implement_strStr()
+[33m5b46f87[m [editing]leetcode_0027_Remove_Element
+[33m71429e5[m [editing]leetcode_0026_Remove_Duplicates_from_Sorted_Array
+[33mb37e6b0[m [editing]leetcode_0025_Reverse_Nodes_in_k-Group
+[33m6ad78bc[m rename
+[33m7a68859[m rename
+[33m4f0c878[m add annotation
+[33mf5c8644[m every day 5 completed!
+[33m98f2888[m leetcode_24_Swap_Nodes_in_Pairs
+[33mf74335c[m simplifier
+[33mb9635bd[m leetcode_0037_Sudoku_Solver
+[33m67215f0[m add annotation
+[33me216dd6[m update
+[33m1631846[m [AC] leetcode_0036_Valid_Sudoku
+[33md74ae79[m fix
+[33m8911e05[m first submission
+[33mccf97e7[m leetcode_0036_Valid_Sudoku
+[33m13d8f98[m leetcode_0023_Merge_k_Sorted_Lists
+[33md85a9b4[m leetcode_0023_Merge_k_Sorted_Lists
+[33mac1b13b[m update
+[33mef5c144[m leetcode_0713_Subarray_Product_Less_Than_K
+[33m27e2a9c[m need reduce complexity
+[33m6ea4e98[m dp: memeory limit exceeded
+[33mb1eef94[m add annotation
+[33mf9c5f84[m leetcode_0713_Subarray_Product_Less_Than_K
+[33m3b05b9a[m update
+[33m2a9fe7c[m leetcode_0021_Merge_Two_Sorted_Lists
+[33m80a6075[m leetcode_0214_Shortest_Palindrome
+[33m0dc71c2[m update
+[33m2e40754[m brute-force try
+[33mff2f2b0[m leetcode_0214_Shortest_Palindrome
+[33mfece33b[m leetcode_0053_Maximum_Subarray
+[33m023347f[m rename
+[33m29949d6[m update
+[33m8fcdea9[m leetcode_1184_Distance_Between_Bus_Stops
+[33m9507151[m leetcode_1184_Distance_Between_Bus_Stops
+[33mfad83a4[m leetcode_1184_Distance_Between_Bus_Stops
+[33mebed23c[m update
+[33mbfb39e0[m rename
+[33mc26e1b1[m add annotation
+[33mf5b0ce8[m fix
+[33m0e74e45[m first try
+[33m1ee57d5[m leetcode_202_Happy_Number
+[33m5b3bb90[m leetcode_1185_Day_of_the_Week
+[33m085f44e[m leetcode_1185_Day_of_the_Week
+[33m105c465[m update
+[33md55d163[m leetcode_1185_Day_of_the_Week
+[33m616a80b[m not done.
+[33md7768aa[m leetcode_1181_Before_and_After_Puzzle
+[33m0985dac[m rename
+[33m51ec231[m 1177. Can Make Palindrome from Substring
+[33m4613015[m failed
+[33mac0bc27[m fix
+[33m7348aea[m try
+[33m97b1eed[m leetcode_1049_Last_Stone_Weight_II
+[33mf90db18[m update
+[33m8c3da5e[m AC: leetcode_0669_Trim_a_Binary_Search_Tree
+[33mcb8d907[m AC: leetcode_0669_Trim_a_Binary_Search_Tree
+[33mb2eb43a[m leetcode_0669_Trim_a_Binary_Search_Tree
+[33m39308d5[m modify
+[33mc3734d5[m leetcode_0724_Find_Pivot_Index
+[33m1727ae7[m leetcode_0724_Find_Pivot_Index
+[33mcb799a0[m fix
+[33ma69ccaa[m leetcode_0125_Valid_Palindrome
+[33m6c16bcd[m leetcode_0125_Valid_Palindrome
+[33m7135b07[m leetcode_1156_Swap_For_Longest_Repeated_Character_Substring
+[33m82bb23a[m modify
+[33m81727df[m modify
+[33m8de3e37[m modify
+[33mbd2fb1b[m leetcode_1156_Swap_For_Longest_Repeated_Character_Substring
+[33mcd62fdc[m update
+[33m151b9a9[m fix
+[33m8484d3d[m fix
+[33m4c9d5d1[m leetcode_1160_Find_Words_That_Can_Be_Formed_by_Characters
+[33m0cd9927[m leetcode_1178_Number_of_Valid_Words_for_Each_Puzzle
+[33m2d07a09[m update
+[33m7448167[m update
+[33m3af0725[m modify
+[33m728233f[m add
+[33mbc93f3f[m rename
+[33m26828ad[m rename
+[33m19be2b0[m update
+[33m60bc6ef[m [AC]contents 152: leetcode_5174_Diet_Plan_Performance
+[33m502f7f1[m contents 152: leetcode_5173_Prime_Arrangements
+[33m45e6d38[m leetcode_0808_Soup_Servings
+[33mb2cce05[m first thoughts
+[33m397fbfe[m update
+[33m48909a0[m rename
+[33m0ac182d[m add annotation
+[33m1303970[m update
+[33m5257ae4[m rename
+[33m206858c[m update
+[33mdc35036[m rename
+[33m61326e4[m fix
+[33m5ebed5d[m leetcode_1174_Search_a_2D_Matrix
+[33m8582d97[m update
+[33me0cead8[m update
+[33m622441c[m leetcode_1163_Last_Substring_in_Lexicographical_Order
+[33mb9cc886[m modify
+[33mba35271[m leetcode_768_Max_Chunks_To_Make_Sorted_II: 倒推思路、
+[33m7847b68[m update
+[33m07c7c9e[m update
+[33mb439b9d[m update
+[33ma867350[m leetcode_1157_Online_Majority_Element_In_Subarray
+[33mfbb9cf7[m [editing]leetcode_1163_Last_Substring_in_Lexicographical_Order
+[33m7a80266[m rename
+[33mf3c6914[m modify
+[33mc0e1081[m leetcode_516_Longest_Palindromic_Subsequence
+[33m6abd4ca[m modify
+[33m64c1cf0[m leetcode_1172_Dinner_Plate_Stacks
+[33m6ca5190[m contest 150: leetcode_1170_Compare_Strings_by_Frequency_of_the_Smallest_Character
+[33mdbd760a[m [AC] contest 150: leetcode_1169_Invalid_Transactions
+[33md008267[m contest 150: leetcode_1169_Invalid_Transactions
+[33m392c1ec[m graph: BreadthFirstPaths
+[33mb606918[m graph: BreadthFirstPaths
+[33mc757540[m DepthFirstPaths
+[33mf14f144[m DepthFirstPaths
+[33m0e471cb[m graph: NonrecursiveDFS
+[33m6b75d42[m graph: NonrecursiveDFS
+[33m717c527[m move
+[33m8a0968f[m update
+[33me2139dd[m leetcode_1092_Shortest_Common_Supersequence
+[33m45e4113[m [editing]leetcode_1092_Shortest_Common_Supersequence
+[33m81aaeae[m search: DepthFirstSearch
+[33m31ea091[m modify
+[33mc0041d1[m fix solution
+[33m2e79f22[m graph: GraphGenerator
+[33m6a3a5fd[m graph: GraphGenerator
+[33mc7bedf3[m search: RedBlack Binary Search tree
+[33m50ca68f[m [editing]search: RedBlack Binary Search tree
+[33m08d94ee[m basic definition
+[33m2685309[m search: RedBlack Binary Search tree
+[33m2da44a0[m search: BST(BinarySearchTree)
+[33m97f7228[m search: BinarySearchST
+[33ma4621f1[m search: SequentialSearchST
+[33m6e8b666[m search: SequentialSearchST
+[33mec0dc90[m frequencyCounter
+[33m8f38607[m search: frequencyCounter
+[33m946fad6[m sorting: HeapSort
+[33m1987276[m HeapSort
+[33m3201020[m remove useless
+[33m61174b7[m MultiwayMergeSort
+[33ma92de92[m leetcode_0132_Palindrome_Partitioning_II
+[33m199285c[m leetcode_0132_Palindrome_Partitioning_II
+[33mbbcded2[m QuickSortThreeWaysOptimized
+[33m44e9b9c[m QuickSortThreeWaysOptimized
+[33m5785a33[m fix
+[33mf812c7b[m update
+[33m47ca1d2[m update
+[33m2e993f8[m add annotation
+[33mdf0857b[m leetcode_0115_Distinct_Subsequences
+[33m19c4b6a[m leetcode_0115_Distinct_Subsequences
+[33m6857eb9[m leetcode_0115_Distinct_Subsequences
+[33m510c934[m update
+[33m4555ad5[m leetcode_1140_Stone_Game_II
+[33m6df48cd[m QuickSortOptimized
+[33m46c2115[m [editing]QuickSortOptimized
+[33m814490a[m [editing]QuickSortOptimized
+[33m67f57c7[m QuickSortOptimized
+[33m7210598[m sort: QuickSortThreeWays
+[33ma7d1290[m sort: QuickSortThreeWays
+[33m7b20add[m [editing]leetcode_1143_Longest_Common_Subsequence
+[33m5526d47[m leetcode_1143_Longest_Common_Subsequence
+[33m229c1c0[m leetcode_1143_Longest_Common_Subsequence
+[33mbf89f85[m fix
+[33mefa104f[m rename
+[33mee466dd[m remove
+[33m53b516c[m fix
+[33m4306b53[m add annotation
+[33m7354fb4[m fix
+[33m914c2cd[m leetcode_50_Pow_x_n
+[33m6caf5c8[m leetcode_50_Pow_x_n
+[33m66263e4[m update
+[33m43c72e5[m add annotation
+[33mdff4406[m leetcode_29_Divide_Two_Intergers
+[33m4b8b985[m leetcode_29_Divide_Two_Intergers
+[33m89e36ec[m update
+[33m015d6f8[m add annotation
+[33mde95cf7[m fix
+[33mcc5ad80[m leetcode_0095_Unique_Binary_Search_Trees_II
+[33m86fc985[m update
+[33mc30cd24[m A Sudoku solver program
+[33m3918e2b[m A Sudoku solver program
+[33ma2e0d8e[m QuickSort
+[33md73ae9a[m QuickSort
+[33m54f60e6[m leetcode_95_Unique_Binary_Search_Trees_II.
+[33m257aec7[m leetcode_95_Unique_Binary_Search_Trees_II
+[33md6e06fd[m Inversions: find in array of comparables
+[33mb8742b0[m Inversions: find in array of comparables
+[33m7dfa8fc[m leetcode_0123_Best_Time_to_Buy_and_Sell_Stock_III: fix
+[33ma2b4270[m leetcode_0123_Best_Time_to_Buy_and_Sell_Stock_III
+[33m7a993f4[m add badge
+[33m37c7c2c[m fix
+[33mee92d66[m update
+[33m2751b3c[m rename
+[33m89b3b85[m rename
+[33mea80082[m remove
+[33m52fe708[m rename
+[33md243dd6[m remove
+[33mb8a2bd0[m rename
+[33m06ff6c0[m remove
+[33m0aefeee[m rename
+[33m6c754f6[m remove
+[33me6412ca[m rename
+[33m16b084d[m remove
+[33m46b8574[m rename
+[33m03f3975[m remove
+[33ma34c0d5[m rename
+[33m6631e21[m remove
+[33m6035763[m rename
+[33mcca9944[m remove
+[33m5f2d54c[m rename
+[33m5895618[m remove
+[33m3868e3e[m rename
+[33m91f85c2[m remove
+[33m6ba309a[m leetcode_0123_Best_Time_to_Buy_and_Sell_Stock_III
+[33ma12536e[m leetcode_0123_Best_Time_to_Buy_and_Sell_Stock_III
+[33m159f472[m add leetcode badge
+[33m2328faf[m add leetcode badge
+[33m5520c66[m add leetcode badge
+[33mad547ab[m add leetcode badge
+[33mfa275cf[m add leetcode badge
+[33mfb91643[m add leetcode badge
+[33m1c804d8[m add leetcode badge
+[33mb7d7de3[m add leetcode badge
+[33m9cd50fa[m leetcode_1105_Filling_Bookcase_Shelves
+[33m8ce0ca6[m leetcode_1105_Filling_Bookcase_Shelves
+[33m75256ef[m leetcode_1105_Filling_Bookcase_Shelves
+[33m06dbdf1[m leetcode_1140_Stone_Game_II
+[33ma50b7b0[m sort: MergeSortOptimized
+[33m3dfb8ba[m sort: MergeSortOptimized
+[33mdba4b60[m update
+[33m2a34639[m leetcode_1139_Largest_1_Bordered_Square
+[33me700ae5[m sort: TopDownMergeSort
+[33m2767f52[m contest_4: leetcode_1140_Stone_Game_II
+[33m8062f0a[m contest_4: leetcode_1140_Stone_Game_II
+[33m5883d4a[m [editing]contest_3: leetcode_1139_Largest_1_Bordered_Square
+[33m32f65a8[m add annotation
+[33mb2c3aab[m contest_3: leetcode_1139_Largest_1_Bordered_Square
+[33m2e67eea[m contest_3: leetcode_1139_Largest_1_Bordered_Square
+[33m3d21a2a[m AC! contest_2: leetcode_1138_Alphabet_Board_Path
+[33m1861ac5[m contest_2: const define
+[33mc0f955d[m contest_2: leetcode_1138_Alphabet_Board_Path
+[33mb20b180[m contest_2: leetcode_1138_Alphabet_Board_Path
+[33mc286825[m fix: 注意处理极端情况
+[33m4b5ba27[m contest_1: leetcode_1137_Nth_Tribonacci_Number
+[33mc4a82fc[m contest_1: leetcode_1137_Nth_Tribonacci_Number
+[33m53544b9[m contest_1: leetcode_1137_Nth_Tribonacci_Number
+[33m4f947d6[m contest_1: leetcode_1137_Nth_Tribonacci_Number
+[33m35aebe9[m [editing]sort: TopDownMergeSort
+[33mfd863df[m sort: ShellSort
+[33m37b6fc1[m sort: ShellSort
+[33m19e1a3b[m sort: SelectionSort
+[33m97e0afc[m sort: BinaryInsertion
+[33mb99b17e[m sort: SelectionSort
+[33m52ad172[m sort: BinaryInsertion
+[33mcc7a092[m fix
+[33md2ad15c[m fix
+[33m1c1c3d6[m remove
+[33m84ec4fc[m sort: optimized InsertionSort
+[33mbe3b039[m sort: optimized InsertionSort
+[33md40c7d4[m sort: InsertionSort
+[33m99d0e7c[m update
+[33m0dd26ab[m leetcode_1123_Lowest_Common_Ancestor_of_Deepest_Leaves
+[33mdfcc4cf[m leetcode_1123_Lowest_Common_Ancestor_of_Deepest_Leaves
+[33m53b7c69[m leetcode_1123_Lowest_Common_Ancestor_of_Deepest_Leaves
+[33m71176f0[m remove
+[33mb055612[m leetcode_1123_Lowest_Common_Ancestor_of_Deepest_Leaves
+[33m3af0e5f[m leetcode_1123_Lowest_Common_Ancestor_of_Deepest_Leaves
+[33m72c69e1[m update
+[33m49b6f8d[m add annotation
+[33m618a237[m fix
+[33m26f6d11[m leetcode_81_Search_in_Rotated_Sorted_Array_II
+[33ma0d1a8a[m leetcode_81_Search_in_Rotated_Sorted_Array_II
+[33me085f25[m leetcode_81_Search_in_Rotated_Sorted_Array_II
+[33mf22af8d[m add annotation
+[33m3bbd888[m fix
+[33mf57451e[m leetcode_33_Search_in_Rotated_Sorted_Array
+[33mbacc135[m add annotation
+[33m1915f18[m leetcode_33_Search_in_Rotated_Sorted_Array
+[33m5fa9252[m leetcode_33_Search_in_Rotated_Sorted_Array
+[33ma926f5e[m need debug: 暂时没思路调。。
+[33mc76f802[m fix
+[33m293fe24[m update
+[33mab1b92d[m fix
+[33m0fbe7ef[m fix
+[33md773b08[m fix
+[33m8ae5e44[m fix
+[33m1993ad2[m fix
+[33me196234[m leetcode_1124_Longest_Well-Performing_Interval: submission 1
+[33m3899f72[m leetcode_1124_Longest_Well-Performing_Interval
+[33m19af902[m leetcode_1124_Longest_Well-Performing_Interval
+[33m363eb4d[m leetcode_1124_Longest_Well-Performing_Interval
+[33m916416d[m leetcode_1125_Smallest_Sufficient_Team
+[33m8659011[m basic DT: undirected graph
+[33m0f19614[m leetcode_1125_Smallest_Sufficient_Team
+[33ma1d31c0[m update
+[33m3b33ecd[m leetcode_1129_Shortest_Path_with_Alternating_Color
+[33m84109e5[m add annotation
+[33m1a5926a[m leetcode_1129_Shortest_Path_with_Alternating_Color
+[33m968e68b[m update
+[33ma93ad57[m update
+[33m5299b3e[m fix
+[33m886f529[m leetcode_1131_Maximum_of_Absolute_Value_Expression
+[33m6e04175[m leetcode_1131_Maximum_of_Absolute_Value_Expression
+[33m614988a[m leetcode_1131_Maximum_of_Absolute_Value_Expression
+[33m721c375[m leetcode_1131_Maximum_of_Absolute_Value_Expression
+[33mae9ae27[m leetcode_1130_Minimum_Cost_Tree_From_Leaf_Values
+[33m465f9c1[m leetcode_1130_Minimum_Cost_Tree_From_Leaf_Values
+[33m9a6ed96[m remove
+[33mcf3e4fd[m remove
+[33mb905d1c[m rename
+[33m9f62ae3[m rename
+[33m7802672[m leetcode_5131_Minimum_Cost_Tree_From_Leaf_Values
+[33m79aff3e[m fix
+[33m1b8b387[m remove
+[33m35c9ed7[m leetcode_5131_Minimum_Cost_Tree_From_Leaf_Values
+[33m6877fec[m remove
+[33m0f39436[m update
+[33m7240281[m AC: leetcode_5130_Number_of_Equivalent_Domino_Pairs
+[33mfde3e3d[m leetcode_5130_Number_of_Equivalent_Domino_Pairs
+[33m1b03fba[m update
+[33m455fe4a[m leetcode_1122_Relative_Sort_Array
+[33me7198f9[m update
+[33mccc5c39[m remove
+[33m07a549d[m remove
+[33m626b9d7[m leetcode_1122_Relative_Sort_Array
+[33m2a61787[m update
+[33m7ebeed3[m modify
+[33m48fb458[m leetcode_91_Decode_Ways
+[33m377cec0[m optimized: still time exceed :(
+[33m2d092e5[m modify
+[33mc3f3261[m 此方法内存占用过大，不可取
+[33m2ec3e0c[m leetcode_91_Decode_Ways
+[33mdf48897[m [editing]leetcode_91_Decode_Ways
+[33mca29861[m fix
+[33mef4bfa6[m remove
+[33m9ad2e44[m leetcode_91_Decode_Ways
+[33m38dac35[m leetcode_91_Decode_Ways
+[33m7bc6559[m basic DT: ResizingArrayStack
+[33m0901d9c[m basic DT: ResizingArrayStack
+[33mac8ee22[m algorithm: Stacked by LinkedList
+[33m563045f[m algorithm: Stacked by LinkedList
+[33m5942dd4[m algorithm: Stacked by LinkedList
+[33m09e5845[m lower efficiency :(  leetcode_22_Generate_Parentheses
+[33m20edb61[m [editing]leetcode_22_Generate_Parentheses
+[33mf0d196a[m leetcode_22_Generate_Parentheses
+[33m1263809[m leetcode_22_Generate_Parentheses
+[33m0cdd05a[m leetcode_19_Remove_Nth_Node_From_End_of_List
+[33m3d90c55[m leetcode_19_Remove_Nth_Node_From_End_of_List
+[33m5f058a3[m leetcode_19_Remove_Nth_Node_From_End_of_List
+[33me14c4c4[m leetcode_18_4Sum: remove my mistake
+[33m0673212[m leetcode_18_4Sum: fix
+[33m45b719d[m fix
+[33m13035a5[m [editing]leetcode_18_4Sum
+[33mc315b9a[m [editing]leetcode_18_4Sum
+[33m4c6c5f5[m leetcode_18_4Sum
+[33meedaf19[m leetcode_17_Letter_Combinations_of_a_Phone_Number
+[33madd98d7[m leetcode_17_Letter_Combinations_of_a_Phone_Number
+[33mfbe882d[m leetcode_17_Letter_Combinations_of_a_Phone_Number
+[33m59845bf[m leetcode_17_Letter_Combinations_of_a_Phone_Number
+[33m078f2f8[m qualified Solution of 3Sum_Closest
+[33mad45664[m Solution of O(n^3)
+[33m11613ec[m leetcode_16_3Sum_Closest
+[33m2aa0bd3[m leetcode_15_3Sum
+[33m85f0cd2[m leetcode_15_3Sum
+[33m9716550[m leetcode_14_Longest_Common_Prefix
+[33mc8ef279[m leetcode_14_Longest_Common_Prefix
+[33m42afc2f[m leetcode_13_Roman_to_Integer
+[33m17588b9[m leetcode_13_Roman_to_Integer
+[33m0be9916[m leetcode_12_Integer_to_Roman
+[33m56acf79[m leetcode_12_Integer_to_Roman
+[33ma9844ea[m leetcode_11_Container_With_Most_Water
+[33m4e7c6e3[m class Solution {
+[33ma6743bc[m leetcode_44_Wildcard_Matching
+[33mb215928[m leetcode_10_Regular_Expression_Matching
+[33m2f9daf3[m leetcode_10_Regular_Expression_Matching
+[33m0769722[m leetcode_87_Scramble_String
+[33m80bbae0[m leetcode_87_Scramble_String
+[33mf225f32[m leetcode_84_Largest_Rectangle_In_Histogram
+[33mdccd4c4[m leetcode_85_Maximal_Rectangle
+[33m4344f1c[m Knuth Shuffle
+[33m125c16c[m update
+[33m9535471[m binary search
+[33mb55b4fd[m data files for testing BinarySearch
+[33mb908107[m update
+[33md310de0[m initial commit
+[33me9722ec[m [editing] leetcode_85_Maximal_Rectangle
+[33m4b3822e[m [editing]
+[33mc039a27[m [editing] leetcode_85_Maximal_Rectangle
+[33m8942a5e[m leetcode_121_Best_Time_To_Buy_And_Sell_Stock
+[33mae038c2[m welcome
+[33mcc8d73e[m welcome
+[33m11b0edd[m DP, easy
+[33mf67097d[m leetcode_541_Reverse_String_II
+[33m9824054[m leetcode_539_Minimum_Time_Difference
+[33mfdc22bc[m leetcode_543_Diameter_of_Binary_Tree
+[33me5377bf[m poj_1031_Fence
+[33m1b3ec18[m poj_1030_Rating
+[33m4404ea9[m poj_1664_放苹果
+[33m929b071[m ABBA
+[33m70667ea[m poj_1008_Maya_Calendar
+[33m3df778d[m poj_1083_Moving_Tables
+[33md32cfc9[m poj_1052_plato's_block
+[33m4e81980[m leetcode.
+[33ma379bbc[m DP, easy
+[33medd2d1a[m unique path with stock.note using type long to pass exam.
+[33m977606d[m :) A simple way to calculate C(m,n).
+[33m7a1c945[m rename
+[33m05b8edd[m :) A simple way to calculate C(m,n).
+[33m44248c4[m next permutation
+[33m39f790a[m longest valid parentheses
+[33m1e92df5[m check valid parentheses.
+[33mbb68a89[m first thought using recursive.Very slow
+[33m4b313ce[m Linear-list implementation
+[33ma3d2a0e[m Status define
+[33m6d8dc15[m perl: converting bits to bytes and other units so on.
+[33m24ed718[m modify scripts.
+[33me13c875[m perl: converting bits to bytes and other units so on.
+[33m01d95dd[m 在linux命令行下PHP打印当前时间（每秒一次）
+[33m280e35c[m update readme.md
