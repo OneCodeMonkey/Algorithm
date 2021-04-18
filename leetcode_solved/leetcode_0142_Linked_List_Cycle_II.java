@@ -3,7 +3,7 @@
  *     Memory Usage: 38.9 MB, less than 81.24% of Java online submissions for Linked List Cycle II.
  * 
  * 思路：快慢指针法。 细节的是需要证明当快慢两指针相遇时，慢指针再走一倍已走过的路程，最终会停在环处。
- * 复杂度：T:O(n), S:O(s)
+ * 复杂度：T:O(n), S:O(1)
  */
 /**
  * Definition for singly-linked list.
