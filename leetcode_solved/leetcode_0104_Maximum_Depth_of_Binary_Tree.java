@@ -15,7 +15,7 @@
  */
 // AC:
 // Runtime: 0 ms, faster than 100.00% of Java online submissions for Maximum Depth of Binary Tree.
-// Memory Usage: 40.2 MB, less than 5.74% of Java online submissions for Maximum Depth of Binary Tree.
+// Memory Usage: 39.2 MB, less than 12.82% of Java online submissions for Maximum Depth of Binary Tree.
 // 思路：迭代判断即可
 // 复杂度：T:O(n), S:O(logn), logn 为迭代的调用栈空间占用
 // 
