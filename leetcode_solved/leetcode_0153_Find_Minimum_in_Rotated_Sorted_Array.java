@@ -1,15 +1,52 @@
 // AC: Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Minimum in Rotated Sorted Array.
-// Memory Usage: 38.3 MB, less than 68.34% of Java online submissions for Find Minimum in Rotated Sorted Array.
-// 思路：找到原有序数组的起点即可。
-// 复杂度：T: O(n), S: O(1)
+// Memory Usage: 42.5 MB, less than 8.03% of Java online submissions for Find Minimum in Rotated Sorted Array.
+// binary search.
+// T:O(logn), S:O(1)
+// 
 class Solution {
     public int findMin(int[] nums) {
-        for(int i = 0; i < nums.length - 1; i++) {
-            if (nums[i + 1] < nums[i]) {
-                return nums[i + 1];
+        int len = nums.length, left = 0, right = len - 1, mid;
+        if (len == 1) {
+            return nums[0];
+        }
+        while (left < right) {
+            mid = left + (right - left) / 2;
+            if (mid == 0) {
+                if (nums[mid] < nums[mid + 1]) {
+                    if (nums[mid] < nums[len - 1]) {
+                        return nums[mid];
+                    } else {
+                        left = mid + 1;
+                    }
+                } else {
+                    return nums[mid + 1];
+                }
+            } else if (mid == len - 1) {
+                if (nums[mid] > nums[mid - 1]) {
+                    if (nums[mid] > nums[0]) {
+                        return nums[0];
+                    } else {
+                        right = mid - 1;
+                    }
+                } else {
+                    return nums[mid];
+                }
+            } else {
+                if (nums[mid] < nums[mid + 1] && nums[mid] < nums[mid - 1]) {
+                    return nums[mid];
+                }
+                if (nums[mid] < nums[mid + 1]) {
+                    if (nums[mid] < nums[len - 1]) {
+                        right = mid - 1;
+                    } else {
+                        left = mid + 1;
+                    }
+                } else {
+                    return nums[mid + 1];
+                }
             }
         }
 
-        return nums[0];
+        return nums[left];
     }
 }
