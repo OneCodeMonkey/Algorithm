@@ -1,6 +1,8 @@
-/**
- * 
- */
+// AC: Runtime: 1004 ms, faster than 15.77% of C++ online submissions for Can Make Palindrome from Substring.
+// Memory Usage: 194.8 MB, less than 16.15% of C++ online submissions for Can Make Palindrome from Substring.
+// .
+// T:O(m + n), S:(m), m = s.length(), n = queries.length
+// 
 class Solution {
 public:
     vector<bool> canMakePaliQueries(string s, vector<vector<int>>& queries) {

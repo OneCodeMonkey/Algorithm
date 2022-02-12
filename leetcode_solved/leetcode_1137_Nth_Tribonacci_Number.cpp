@@ -1,3 +1,8 @@
+// AC: Runtime: 0 ms, faster than 100.00% of C++ online submissions for N-th Tribonacci Number.
+// Memory Usage: 5.9 MB, less than 49.95% of C++ online submissions for N-th Tribonacci Number.
+// recursion
+// T:O(n), S:O(1)
+// 
 class Solution {
 public:
 	/**
