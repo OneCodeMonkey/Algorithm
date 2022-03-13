@@ -1,4 +1,8 @@
-// AC
+// AC: Runtime: 11 ms, faster than 52.08% of C++ online submissions for Rotate List.
+// Memory Usage: 11.8 MB, less than 55.87% of C++ online submissions for Rotate List.
+// .
+// T:O(n), S:O(n)
+// 
 class Solution {
 public:
 	ListNode* rotateRight(ListNode* head, int k) {
