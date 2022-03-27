@@ -1,5 +1,5 @@
-// AC: Runtime: 21 ms, faster than 5.46% of Java online submissions for Partition Labels.
-// Memory Usage: 40.2 MB, less than 5.08% of Java online submissions for Partition Labels.
+// AC: Runtime: 10 ms, faster than 28.18% of Java online submissions for Partition Labels.
+// Memory Usage: 42.5 MB, less than 55.05% of Java online submissions for Partition Labels.
 // start from 0-index, record the max substring that meets the requirement, until reach the end of string.
 // T:O(n), S:O(1)
 // 
