@@ -3,7 +3,7 @@
 // backtracking
 // T:O(n^3), S:O(n^2)
 // 
-lass Solution {
+class Solution {
     public List<List<String>> solveNQueens(int n) {
         List<List<Integer>> record = new LinkedList<>();
         int[][] chessboard = new int[n][n];
