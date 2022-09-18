@@ -1,0 +1,3 @@
+-- Runtime: 1920 ms, faster than 15.57% of MySQL online submissions for Sales Analysis III.
+-- Memory Usage: 0B, less than 100.00% of MySQL online submissions for Sales Analysis III.
+select distinct a.product_id,a.product_name from Product a left join Sales b on a.product_id=b.product_id where b.sale_date >= "2019-01-01" and b.sale_date <= "2019-03-31" and b.product_id not in (select product_id from Sales where sale_date < "2019-01-01" or sale_date > "2019-03-31");
