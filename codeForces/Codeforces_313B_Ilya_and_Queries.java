@@ -8,12 +8,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 import java.util.StringTokenizer;
 
 public class Codeforces_313B_Ilya_and_Queries {
-    public static Scanner sc = new Scanner(System.in);
-
     private static class FastReader {
         public BufferedReader br;
         public StringTokenizer st;
