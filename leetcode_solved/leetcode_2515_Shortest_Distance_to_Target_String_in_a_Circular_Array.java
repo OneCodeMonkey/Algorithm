@@ -6,17 +6,15 @@
 class Solution {
     public int closetTarget(String[] words, String target, int startIndex) {
         int ret = 0, len = words.length;
-        if (words[startIndex].equals(target)) {
-            return ret;
-        }
-        int left = (startIndex - 1 + len) % len, right = (startIndex + 1) % len;
-        ret++;
+        int left = startIndex, right = startIndex;
         boolean flag = false;
         while (ret <= len / 2) {
             if (words[left].equals(target) || words[right].equals(target)) {
                 flag = true;
                 break;
             }
+            left = (left - 1 + len) % len;
+            right = (right + 1) % len;
             ret++;
         }
 
