@@ -1,0 +1,26 @@
+// AC: 295 ms 
+// Memory: 0 KB
+// .
+// T:O(t), S:O(1)
+// 
+import java.util.Scanner;
+
+public class Codeforces_1675A_Food_for_Animals {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        for (int i = 0; i < t; i++) {
+            int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt(), x = sc.nextInt(), y = sc.nextInt();
+            if (a + c < x) {
+                System.out.println("NO");
+            } else {
+                c -= x > a ? (x - a) : 0;
+                if (b + c < y) {
+                    System.out.println("NO");
+                } else {
+                    System.out.println("YES");
+                }
+            }
+        }
+    }
+}
