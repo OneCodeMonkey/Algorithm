@@ -1,6 +1,3 @@
-
-
-
 // 法一：O(n)
 // AC: Runtime: 0 ms, faster than 100.00% of Java online submissions for Kth Missing Positive Number.
 // Memory Usage: 38.2 MB, less than 97.07% of Java online submissions for Kth Missing Positive Number.
