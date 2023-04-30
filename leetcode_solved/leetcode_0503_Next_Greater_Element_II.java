@@ -1,30 +1,26 @@
-// AC: Runtime: 1 ms, faster than 72.09% of Java online submissions for Find Bottom Left Tree Value.
-// Memory Usage: 38.8 MB, less than 48.42% of Java online submissions for Find Bottom Left Tree Value.
-// level-order traversal, get last level and output the first element.
+// AC: Runtime 35 ms Beats 62.85% 
+// Memory 44.7 MB Beats 22.74
+// Monotone Stack.
 // T:O(n), S:O(n)
 // 
 class Solution {
-    List<List<Integer>> record = new ArrayList<>();
-    
-    public int findBottomLeftValue(TreeNode root) {
-        levelOrderTraversal(root, 0);
-        return record.get(record.size() - 1).get(0);
-    }
-    
-    private void levelOrderTraversal(TreeNode root, int depth) {
-        if (root == null) {
-            return;
+    public int[] nextGreaterElements(int[] nums) {
+        int len = nums.length;
+        int[] rearrange = new int[2 * len - 1], ret = new int[2 * len - 1];
+        Arrays.fill(ret, -1);
+        for (int i = 0; i < 2 * len - 1; i++) {
+            rearrange[i] = i < len ? nums[i] : nums[i - len];
         }
-        
-        if (record.size() < depth + 1) {
-            List<Integer> tempList = new ArrayList<>();
-            tempList.add(root.val);
-            record.add(tempList);
-        } else {
-            record.get(depth).add(root.val);
+        Stack<Integer> record = new Stack<>();
+        for (int i = 0; i < 2 * len - 1; i++) {
+            while (!record.isEmpty() && rearrange[record.peek()] < rearrange[i]) {
+                ret[record.pop()] = rearrange[i];
+            }
+            record.push(i);
         }
-        
-        levelOrderTraversal(root.left, depth + 1);
-        levelOrderTraversal(root.right, depth + 1);
+        int[] ret2 = new int[len];
+        System.arraycopy(ret, 0, ret2, 0, len);
+
+        return ret2;
     }
 }
