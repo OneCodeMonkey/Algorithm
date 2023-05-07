@@ -1,5 +1,7 @@
 .idea/
 .vscode/
+.DS_Store
+*/.DS_Store
 算法导论笔记/
 Tests/cmake-build-debug
 Data_Structure_Full_features/

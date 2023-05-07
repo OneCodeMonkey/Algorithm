@@ -1,5 +1,5 @@
-// AC: Runtime 219 ms Beats 6.98% 
-// Memory 43.7 MB Beats 32.56%
+// AC: Runtime 194 ms Beats 14.37% 
+// Memory 43.8 MB Beats 20.69%
 // Prefix sum
 // T:O(m ^ 2 * n ^ 2), S:O(m * n)
 // 
@@ -14,7 +14,6 @@ class Solution {
                 sumRow[i][j] = sum;
             }
         }
-        System.out.println(Arrays.deepToString(sumRow));
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 sumMatrix[i + 1][j + 1] = sumMatrix[i][j + 1] + sumRow[i][j];
