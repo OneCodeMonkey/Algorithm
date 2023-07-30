@@ -1,3 +1,8 @@
+// AC: Runtime 266 ms Beats 6.36% 
+// Memory 299.5 MB Beats 5.1%
+// DP.
+// T:O(m * n), S:O(m * n)
+// 
 class Solution {
 public:
     string shortestCommonSupersequence(string str1, string str2) {
