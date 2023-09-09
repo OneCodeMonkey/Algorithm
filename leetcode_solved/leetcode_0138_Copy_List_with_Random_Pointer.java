@@ -4,6 +4,7 @@
 // T:O(n), S:O(n)
 // 
 // Definition for a Node.
+/*
 class Node {
     int val;
     Node next;
