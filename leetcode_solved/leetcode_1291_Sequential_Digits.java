@@ -1,7 +1,7 @@
 // AC: Runtime: 0 ms, faster than 100.00% of Java online submissions for Sequential Digits.
 // Memory Usage: 36.6 MB, less than 58.00% of Java online submissions for Sequential Digits.
 // see the annotation
-// T:O(9 * log10(high)) ~ O(log(n), S:O(1)
+// T:O(9 * log10(high)) ~ O(log(n)), S:O(1)
 //
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
