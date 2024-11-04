@@ -6,7 +6,6 @@
 import java.util.Scanner;
 
 public class Codeforces_1742D_Coprime {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -33,7 +32,6 @@ public class Codeforces_1742D_Coprime {
         if (a > b) {
             return gcd(b, a);
         }
-        String key = a + "#" + b;
         if (b % a == 0) {
             return a;
         } else {
