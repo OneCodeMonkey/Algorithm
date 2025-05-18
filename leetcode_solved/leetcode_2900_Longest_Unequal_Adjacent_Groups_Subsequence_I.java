@@ -4,9 +4,9 @@
 // T:O(n), S:O(n)
 // 
 class Solution {
-    public List<String> getWordsInLongestSubsequence(int n, String[] words, int[] groups) {
+    public List<String> getLongestSubsequence(String[] words, int[] groups) {
         List<Integer> indexes = new LinkedList<>();
-        int prev = groups[0];
+        int prev = groups[0], n = groups.length;
         indexes.add(0);
         for (int i = 1; i < n; i++) {
             if (groups[i] != prev) {
