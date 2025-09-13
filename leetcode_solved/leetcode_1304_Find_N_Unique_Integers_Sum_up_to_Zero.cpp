@@ -1,9 +1,8 @@
-/**
- * AC：Runtime: 4 ms, faster than 98.01% of C++ online submissions for Find N Unique Integers Sum up to Zero.
- * Memory Usage: 6.4 MB, less than 100.00% of C++ online submissions for Find N Unique Integers Sum up to Zero.
- *
- * T:O(n) S:O(n)
- */
+// Runtime 0 ms Beats 100.00% 
+// Memory 9.72 MB Beats 13.58%
+// . 
+// T:O(n) S:O(n)
+// 
 class Solution {
 public:
     vector<int> sumZero(int n) {
