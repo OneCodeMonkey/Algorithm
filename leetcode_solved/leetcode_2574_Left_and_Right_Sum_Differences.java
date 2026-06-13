@@ -4,7 +4,7 @@
 // T:O(n), S:O(n)
 // 
 class Solution {
-    public int[] leftRigthDifference(int[] nums) {
+    public int[] leftRightDifference(int[] nums) {
         int len = nums.length, pos = 0, sumLeft = 0, sumRight = 0;
         int[] leftSum = new int[len + 1], rightSum = new int[len + 2], ret = new int[len];
         for (int i = 0; i < len; i++) {
