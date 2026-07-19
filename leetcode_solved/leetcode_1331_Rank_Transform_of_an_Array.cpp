@@ -1,3 +1,8 @@
+// Runtime 45 ms Beats 31.66% 
+// Memory 47.15 MB Beats 12.86%
+// .
+// T:O(nlogn), S:O(n)
+// 
 class Solution {
 public:
     vector<int> arrayRankTransform(vector<int>& arr) {
